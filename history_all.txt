@@ -1,0 +1,3516 @@
+    1  sudo apt update
+    2  sudo apt upgrade
+    3  df -h
+    4  cd /media/donato/VBox_GAs_7.0.18
+    5  sudo su -
+    6  sudo apt install snap -y
+    7  sudo apt install flatpak -y
+    8  flatpak install --user https://flathub.org/repo/appstream/com.google.Chrome.flatpakref
+    9  flatpak --user update com.google.Chrome
+   10  sudo snap search keepassxc
+   11  sudo apt install snap -y
+   12  sudo snap search keepassxc
+   13  snap
+   14  sudo apt install snapd -y
+   15  sudo apt purge snapd
+   16  reboot
+   17  sudo snap search tilix
+   18  sudo apt install snapd -yy
+   19  sudo snap search tilix
+   20  sudo flatpak search tilix
+   21  sudo apt search tilix
+   22  sudo apt install tilix
+   23  sudo snap search keepassxc
+   24  sudo snap install keepassxc
+   25  keepassxc
+   26  cd shared/
+   27  sudo usermod -aG vboxsf $USER
+   28  cd shared/
+   29  ll
+   30  id
+   31  sudo usermod -aG vboxsf $USER
+   32  id
+   33  exit
+   34  id
+   35  la
+   36  ll
+   37  sudo cat /etc/group
+   38  reboot
+   39  ll
+   40  cat .zsh_history
+   41  exit
+   42  la
+   43  cat .zsh_history
+   44  :q
+   45  sudo snap search docker
+   46  sudo snap install docker
+   47  sudo snap search vscode
+   48  sudo snap install vscode --classic
+   49  sudo snap install code --classic
+   50  pwd
+   51  cd devops/workspace
+   52  ll
+   53  cd
+   54  cd shared
+   55  ll
+   56  cp -p id* ../.ssh/
+   57  cd
+   58  ll
+   59  la
+   60  mkdir .ssh
+   61  cd shared
+   62  cp -p id* ../.ssh/
+   63  cd
+   64  cd .ssh
+   65  ll
+   66  cd 
+   67  cd devops/workspace
+   68  git clone git@github.com:KubeDev/conversao-temperatura.git
+   69  cd 
+   70  cd .ssh
+   71  ll
+   72  sudo chown donato:donato id*
+   73  la
+   74  cd 
+   75  cd devops/workspace
+   76  git clone git@github.com:KubeDev/conversao-temperatura.git
+   77  eval "$(ssh-agent -s)"
+   78  ssh-add ~/.ssh/id_ed25519
+   79  git clone git@github.com:KubeDev/conversao-temperatura.git
+   80  cd
+   81  ll
+   82  sudo chmod 755 /home/donato/.ssh/id_ed25519
+   83  sudo chmod 755 /home/donato/.ssh/id_ed25519*
+   84  cd devops/workspace
+   85  git clone git@github.com:KubeDev/conversao-temperatura.git
+   86  eval "$(ssh-agent -s)"
+   87  ssh-add ~/.ssh/id_ed25519
+   88  git clone git@github.com:KubeDev/conversao-temperatura.git
+   89  cd 
+   90  la
+   91  cd .ssh
+   92  ll
+   93  sudo chmod 400 /home/donato/.ssh/id_ed25519*
+   94  git clone git@github.com:KubeDev/conversao-temperatura.git
+   95  cd conversao-temperatura
+   96  code .
+   97  cd
+   98  cd devops/workspace/conversao-temperatura
+   99  docker build -t jorgedonato/conversao-temperatura .
+  100  sudo useradd -aG docker $USER
+  101  sudo usermod -aG docker $USER
+  102  sudo newgrp docker
+  103  sudo snap -h
+  104  sudo snap remove docker
+  105  sudo snap install docker
+  106  docker build -t jorgedonato/conversao-temperatura .
+  107  sudo groupadd docker
+  108  sudo usermod -aG docker ${USER}
+  109  docker build -t jorgedonato/conversao-temperatura .
+  110  su -s ${USER}
+  111  sudo su -s ${USER}
+  112  exit
+  113  cd devops/workspace/conversao-temperatura
+  114  docker build -t jorgedonato/conversao-temperatura .
+  115  sudo usermod -aG docker ${USER}
+  116  docker build -t jorgedonato/conversao-temperatura .
+  117  docker run hello-world
+  118  id
+  119  cat /etc/group
+  120  reboot
+  121  ping www.google.com
+  122  ip a
+  123  init 0
+  124  ip a
+  125  top
+  126  init 0
+  127  cd Documents/workspace
+  128  git clone git@github.com:jorgedonatodba/tpt-oracle.git scripts/oracle
+  129  cd 
+  130  cd .ssh
+  131  ls
+  132  cat id_ed25519.pub
+  133  git clone git@github.com:jorgedonatodba/tpt-oracle.git scripts/oracle
+  134  ls
+  135  rm -rf id_ed25519 id_ed25519.pub 
+  136  ls scripts
+  137  rm -rf scripts
+  138  ll
+  139  history|grep ssh
+  140  history|grep key
+  141  history|grep gen
+  142  sudo su -
+  143  history
+  144  ssh-keygen -t ed25519 -C "jorge.donato@live.com"
+  145  cat id_ed25519.pub
+  146  cd 
+  147  cd Documents/workspace
+  148  git clone git@github.com:jorgedonatodba/tpt-oracle.git scripts/oracle
+  149  git branch -a
+  150  cd Documents/workspace
+  151  cd scripts/oracle
+  152  git branch -a
+  153  git checkout -b scripts202409 origin/scripts202409
+  154  pwd
+  155  ll
+  156  code .
+  157  sudo snap search moba
+  158  sudo apt search moba
+  159  sudo apt update
+  160  sudo apt search moba
+  161  ip a
+  162  pwd
+  163  vi test.sh
+  164  chmod +x test.sh
+  165  ./test.sh
+  166  ./test.sh oi
+  167  vi test.sh
+  168  ./test.sh oi
+  169  pwd
+  170  /home/donato/Documents/workspace/scripts/oracle/test.sh
+  171  /home/donato/Documents/workspace/scripts/oracle/test.sh TEST
+  172  man basename
+  173  basename /usr/bin/sort
+  174  /home/donato/Documents/workspace/scripts/oracle/test.sh TEST
+  175  bash -x /home/donato/Documents/workspace/scripts/oracle/test.sh TEST
+  176  /home/donato/Documents/workspace/scripts/oracle/test.sh TEST
+  177  ./test.sh TEST
+  178  /home/donato/Documents/workspace/scripts/oracle/test.sh TEST
+  179  ip a
+  180  git status
+  181  ps -ef | grep cron | grep -v grep | awk '{ print $NF }' | cut -d_ -f3
+  182  ps -ef | grep cron
+  183  ps -ef | grep cron | grep -v grep | awk '{ print $NF }'
+  184  ps -ef | grep cron | grep -v grep 
+  185  man cut
+  186  ps -ef | grep cron | grep -v grep 
+  187  ps -ef | grep cron | grep -v grep | awk '{ print $NF }'
+  188  ps -ef 
+  189  ps -ef | grep scsi | grep -v grep | awk '{ print $NF }'
+  190  ps -ef | grep scsi | grep -v grep 
+  191  ps -ef | grep cron | grep -v grep | awk '{ print $NF }' | cut -d_ -f3
+  192  ps -ef | grep cron | grep -v grep | awk '{ print $NF }' | cut -d_ -f2
+  193  ps -ef | grep cron | grep -v grep | awk '{ print $NF }' | cut -d_ -f1
+  194  ps -ef | grep cron | grep -v grep 
+  195  ps -ef | grep cron | grep -v grep | awk '{ print $NF }' 
+  196  ps -ef 
+  197  ps -ef | grep idle | grep -v grep | awk '{ print $NF }' 
+  198  ps -ef | grep cron | grep -v grep | awk '{ print $NF }' | cut -d_ -f1
+  199  ps -ef | grep idle | grep -v grep | awk '{ print $NF }' | cut -d_ -f1
+  200  ps -ef | grep idle | grep -v grep | awk '{ print $NF }' | cut -d_ -f2
+  201  cd 
+  202  cd shared/BNP/BKP/201909
+  203  cd shared/BNP/BKP/20190809/AceTP/SH
+  204  ll
+  205  chmod +x test01.sh
+  206  pwd
+  207  /home/donato/shared/BNP/BKP/20190809/AceTP/SH/test01.sh TEST
+  208  /home/donato/shared/BNP/BKP/20190809/AceTP/SH/test01.sh TEST INPUT
+  209  /home/donato/shared/BNP/BKP/20190809/AceTP/SH/test01.sh -p
+  210  /home/donato/shared/BNP/BKP/20190809/AceTP/SH/test01.sh -p -f
+  211  /home/donato/shared/BNP/BKP/20190809/AceTP/SH/test.sh -p -f
+  212  /home/donato/shared/BNP/BKP/20190809/AceTP/SH/test.sh -p -f -s
+  213  man hostnamectl
+  214  type hostnamectl
+  215  type -p hostnamectl
+  216  type -p hostnamectl | awk '{print $NF}'
+  217  /home/donato/shared/BNP/BKP/20190809/AceTP/SH/test.sh -p -f -s
+  218  cd ../..
+  219  mkdir -p estudos/java/chainguard
+  220  cd estudos/java/chainguard
+  221  git clone git@github.com:jorgedonatodba/learning-labs-java.git 
+  222  cd learning-labs-java
+  223  ll
+  224  git status
+  225  git branch -a
+  226  git checkout -b chainguard-multistage-jre origin/chainguard-multistage-jre
+  227  ls -ltr
+  228  docker build -t jorgedonato/java-demo:v1 .
+  229  docker image -l
+  230  docker image -ls
+  231  docker image ls
+  232  docker run jorgedonato/java-demo
+  233  docker run jorgedonato/java-demo:v1
+  234  docker run jorgedonato/java-demo:v1 -p 8080:8080
+  235  docker run jorgedonato/java-demo:v1 -p 9000:8080
+  236  docker run jorgedonato/java-demo:v1 -p 80:8080
+  237  docker run jorgedonato/java-demo:v1 -p 127.0.0.1:80:8080/tcp
+  238  docker ps -a
+  239  docker rm -h
+  240  docker ps -h
+  241  docker ps -q
+  242  docker ps -aq
+  243  docker rm ${docker ps -q}
+  244  docker rm d
+  245  docker rm 1c7017eb9009 20c4aa4c12ad df3052dddf7b d8497d17ca5e 8509c3915166
+  246  docker ps -a
+  247  docker run -d jorgedonato/java-demo:v1 -p 127.0.0.1:80:8080/tcp
+  248  docker log b75a2d2713bbd20789b539ac81f31d090c0eff24ebf10fc67ccef17530ff96e6
+  249  docker logs b75a2d2713bbd20789b539ac81f31d090c0eff24ebf10fc67ccef17530ff96e6
+  250  docker inspect b75a2d2713bbd20789b539ac81f31d090c0eff24ebf10fc67ccef17530ff96e6
+  251  docker ps -a
+  252  docker rm b75a2d2713bb -f
+  253  docker image ls
+  254  docker image rm eab39cc99ff1
+  255  code .
+  256  docker build -t jorgedonato/java-demo:v1 .
+  257  docker run -d jorgedonato/java-demo:v1 -p 127.0.0.1:80:8080/tcp
+  258  docker logs 55c30fe1e0cd20c64821c4fdef754279de64745c0b06071bb9c14a869829b6cd
+  259  docker inspect 55c30fe1e0cd20c64821c4fdef754279de64745c0b06071bb9c14a869829b6cd
+  260  cd /var/snap
+  261  ll
+  262  cd docker
+  263  ll
+  264  cd /var/snap/docker/common/var-lib-docker/containers/55c30fe1e0cd20c64821c4fdef754279de64745c0b06071bb9c14a869829b6cd
+  265  sudo /var/snap/docker/common/var-lib-docker/containers/55c30fe1e0cd20c64821c4fdef754279de64745c0b06071bb9c14a869829b6cd
+  266  sudo cd /var/snap/docker/common/var-lib-docker/containers/55c30fe1e0cd20c64821c4fdef754279de64745c0b06071bb9c14a869829b6cd
+  267  sudo ls /var/snap/docker/common/var-lib-docker/containers/55c30fe1e0cd20c64821c4fdef754279de64745c0b06071bb9c14a869829b6cd
+  268  docker ps -a
+  269  docker rm 55c -f
+  270  docker image rm jorgedonato/java-demo:v1
+  271  docker build -t java-demo .
+  272  docker run -d -p 8080:8080 java-demo
+  273  curl localhost:8080/hello
+  274  ping 192.168.1.22
+  275  docker ps -a
+  276  docker rm d44 -f
+  277  docker image rm java-demo
+  278  docker build -t java-demo .
+  279  sudo apt search oracle
+  280  sudo apt search oracle|grep client
+  281  sudo apt search oracle|grep cli
+  282  cat /etc/passwd
+  283  init 0
+  284  top
+  285  cd /etc/
+  286  ll
+  287  ls -la
+  288  exit
+  289  init 0
+  290  sudo mkdir -p /opt/oracle
+  291  cd /opt/oracle
+  292  cd /opt
+  293  ll
+  294  cd oracle
+  295  ll
+  296  sudo wget https://download.oracle.com/otn_software/linux/instantclient/214000/instantclient-basic-linux.x64-21.4.0.0.0dbru.zip
+  297  sudo unzip instantclient_21_4
+  298  ll
+  299  sudo unzip instantclient-basic-linux.x64-21.4.0.0.0dbru.zip
+  300  sudo apt update
+  301  sudo apt install libaio1
+  302  sudo sh -c "echo /opt/oracle/instantclient_21_4 > /etc/ld.so.conf.d/oracle-instantclient.conf"
+  303  sudo ldconfig
+  304  ll
+  305  cd instantclient_21_4
+  306  ll
+  307  cd network
+  308  ll
+  309  cd admin
+  310  ll
+  311  cat README
+  312  exit
+  313  init 0
+  314  ip a
+  315  ping 192.168.15.101
+  316  ping 192.168.15.1
+  317  exit
+  318  top
+  319  sudo init 0
+  320  top
+  321  sudo snap search FortiClient
+  322  sudo apt search FortiClient
+  323  sudo apt update
+  324  cd Downloads
+  325  sudo apt install ./forticlient_vpn_7.4.0.1636_amd64.deb -y
+  326  ping SRV-OLVM-ORA02
+  327  ip a
+  328  ping www.google.com
+  329  ping srv-olvm-ora01.localdomain\n
+  330  ping 177.137.234.189
+  331  top
+  332  ip a
+  333  ping www.google.com
+  334  sudo snap search Remmina
+  335  sudo snap install Remmina
+  336  sudo snap install remmina
+  337  sudo apt update
+  338  sudo apt upgrade
+  339  init 0
+  340  sudo apt update
+  341  sudo apt upgrade
+  342  sudo reboot
+  343  top
+  344  vmstat -w 1
+  345  top
+  346  sudo reboot
+  347  top
+  348  ip a
+  349  top
+  350  ip a
+  351  sudo apt update
+  352  sudo apt search checkpoint
+  353  sudo apt search endpoint
+  354  top
+  355  pwd
+  356  ll
+  357  cd Documents/workspace
+  358  ll
+  359  cd estudos
+  360  ll
+  361  mkdir terraform
+  362  cd terraform
+  363  ll
+  364  ls /
+  365  cd 
+  366  cd shared
+  367  ll
+  368  ls -ltrh
+  369  git login
+  370  cd ..
+  371  cd Documents/workspace/estudos/terraform
+  372  git clone https://github.com/RekhuGopal/OracleCloudInfrastructure.git
+  373  ping www.google.com
+  374  cd Documents/workspace/estudos/terraform
+  375  ll
+  376  history
+  377  history|grep gen
+  378  cd 
+  379  cd .ssh
+  380  ll
+  381  cat id_ed25519.pub
+  382  git config --global list
+  383  git config list
+  384  git
+  385  git config --list
+  386  history|grep config
+  387  git config --list --system
+  388  cd
+  389  git config --list --system
+  390  sudo git config --list --system
+  391  sudo git config --list --global
+  392  git config --list --global
+  393  git config --global user.email jorge.donato@live.com
+  394  git config --global user.name Jorge Donato
+  395  cd Documents/workspace/estudos/terraform
+  396  git clone git@github.com:jorgedonatodba/OracleCloudInfrastructure.git
+  397  ll
+  398  cd OracleCloudInfrastructure
+  399  code .
+  400  sudo snap search zen
+  401  sudo snap info 0xgingi-zen-browser
+  402  sudo flatpak search zen
+  403  sudo flatpak
+  404  sudo flatpak -help
+  405  sudo flatpak search -help
+  406  sudo flatpak search git
+  407  sudo apt install flatpak
+  408  sudo apt info gnome-software-plugin-flatpak
+  409  flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+  410  sudo flatpak search git
+  411  sudo flatpak search zen
+  412  sudo flatpak install -help
+  413  sudo flatpak install --app zen
+  414  zenity -h
+  415  flatpak run app.zen_browser.zen
+  416  nmap
+  417  ss
+  418  ss -t
+  419  ss 
+  420  man ss 
+  421  ss -plan
+  422  ss -plant4
+  423  ip
+  424  ip a
+  425  curl http://wttr.in
+  426  sensors
+  427  sudo sensors
+  428  sudo snap search sensors
+  429  sudo snap search lm-sensors
+  430  sudo apt search lm-sensors
+  431  sudo apt update
+  432  sudo apt search lm-sensors|more
+  433  sudo apt install -y lm-sensors
+  434  sensors
+  435  sudo sensors-detect
+  436  sensors
+  437  sudo apt -h
+  438  sudo apt remove -h
+  439  sudo apt remove help
+  440  sudo apt remove --help
+  441  man aptitude
+  442  sudo apt search aptitude
+  443  sudo snap search aptitude
+  444  sudo apt search aptitude|grep aptitude
+  445  sudo apt install -y aptitude
+  446  man aptitude
+  447  aptitude -h
+  448  sudo aptitude purge lm-sensors -s
+  449  sudo aptitude remove lm-sensors -s
+  450  sudo apt remove --help
+  451  sudo apt remove lm-sensors
+  452  sudo aptitude purge aptitude -s
+  453  aptitude -h
+  454  sudo aptitude show aptitude -s
+  455  sudo aptitude show btop
+  456  sudo aptitude install btop
+  457  btop
+  458  htop
+  459  history
+  460  ss -plant4
+  461  sudo aptitude show nmap
+  462  sudo aptitude install nmap
+  463  nmap -h
+  464  nmap -v -sn 192.168.0.0/16
+  465  nmap -v -sn 192.168.15.0/16
+  466  nmap -v -sn 192.168.15.0/24
+  467  nmap -h
+  468  nmap -v -O -sn 192.168.15.0/24
+  469  sudo nmap -v -O -sn 192.168.15.0/24
+  470  sudo nmap -v -O -sS 192.168.15.0/24
+  471  btop
+  472  sudo nmap -A -T4 canme.nmap.org
+  473  sudo nmap -A -T4 scanme.nmap.org
+  474  sudo aptitude search Graphviz
+  475  pwd
+  476  cd Documents/workspace/estudos/terraform
+  477  ll
+  478  mkdir HubAndSpoke
+  479  cd HubAndSpoke
+  480  git init
+  481  git config --global --list
+  482  git config --global init.defaultBranch main
+  483  git branch -m main
+  484  git branch -a
+  485  git config --global --list --show-scope
+  486  vi provider.tf
+  487  cd
+  488  cd shared
+  489  ll
+  490  mv graph.dot ~/Documents/workspace/estudos/terraform/HubAndSpoke
+  491  ll
+  492  cd vi provider.tf
+  493  cd ~/Documents/workspace/estudos/terraform/HubAndSpoke
+  494  vi provider.tf
+  495  code .
+  496  ll
+  497  pwd
+  498  cd 
+  499  cd shared
+  500  ll
+  501  pwd
+  502  openssl rsa -pubout -outform DER -in /home/donato/shared/oci_api_key.pem | openssl md5 -c
+  503  ll
+  504  cd test
+  505  ll
+  506  terraform 
+  507  sudo terraform 
+  508  sudo aptitude show terraform
+  509  sudo aptitude update
+  510  sudo aptitude show terraform
+  511  sudo aptitude search terraform
+  512  sudo snap search terraform
+  513  sudo snap install terraform --classic
+  514  terraform 
+  515  terraform init
+  516  terraform plan
+  517  terraform apply
+  518  terraform destroy
+  519  terraform plan
+  520  terraform apply
+  521  export TF_VAR_ssh_public_key=$(cat /home/donato/shared/oci_api_key_public.pem)
+  522  terraform apply
+  523  terraform destroy
+  524  export TF_VAR_ssh_public_key=$(cat /home/donato/shared/jenkinks_pub.pem)
+  525  terraform apply
+  526  ssh -i /home/donato/shared/jenkins.ppk opc@129.148.34.39
+  527  cd 
+  528  cd shared
+  529  ll
+  530  chmod 777 jenkins.ppk
+  531  ssh -i /home/donato/shared/jenkins.ppk opc@129.148.34.39
+  532  ll
+  533  sudo chmod 777 jenkins.ppk
+  534  ll
+  535  cp -p jenkinks_pub.pem jenkins.ppk /tmp/
+  536  cd /tmp
+  537  ll
+  538  ls -ltr
+  539  sudo chmod 777 jenkins.ppk jenkinks_pub.pem
+  540  ll
+  541  ssh -i /tmp/jenkins.ppk opc@129.148.34.39
+  542  cp  jenkinks_pub.pem jenkins.ppk /tmp/
+  543  cp  jenkinks_pub.pem jenkins.ppk /tmp/ -f
+  544  rm -rf jenkins.ppk jenkinks_pub.pem
+  545  cd
+  546  cd shared
+  547  cp  jenkinks_pub.pem jenkins.ppk /tmp/
+  548  cd /tmp
+  549  ssh -i /tmp/jenkins.ppk opc@129.148.34.39
+  550  ls -ltr je*
+  551  id
+  552  sudo chmod 750 jenkins.ppk jenkinks_pub.pem
+  553  ssh -i /tmp/jenkins.ppk opc@129.148.34.39
+  554  sudo chmod 700 jenkins.ppk jenkinks_pub.pem
+  555  ssh -i /tmp/jenkins.ppk opc@129.148.34.39
+  556  cd 
+  557  cd .ssh
+  558  ll
+  559  pwd
+  560  cd
+  561  cd Documents/workspace/estudos/terraform/HubAndSpoke/test
+  562  terraform destroy
+  563  echo $TF_VAR_ssh_public_key
+  564  cat /home/donato/.ssh/id_ed25519.pub
+  565  export TF_VAR_ssh_public_key=$(cat /home/donato/.ssh/id_ed25519.pub)
+  566  echo $TF_VAR_ssh_public_key
+  567  cat /home/donato/shared/oci_api_key_public.pem
+  568  cat /home/donato/shared/oci_api_key.pem
+  569  cp /home/donato/shared/oci_api_key.pem /home/donato/shared/oci_api_key_public.pem /tmp/
+  570  export TF_VAR_ssh_public_key=$(cat /tmp/oci_api_key_public.pem)
+  571  echo $TF_VAR_ssh_public_key
+  572  cd 
+  573  cd /tmp
+  574  ll
+  575  ls -ltr /home/donato/.ssh/id_ed25519.pub
+  576  sudo chmod 744 oci*
+  577  ll
+  578  export TF_VAR_ssh_public_key=$(cat /tmp/oci_api_key_public.pem)
+  579  ll
+  580  echo $TF_VAR_ssh_public_key
+  581  terraform apply
+  582  ssh -i /tmp/oci_api_key.pem opc@144.22.253.17
+  583  chmod 700 /tmp/oci_api_key.pem
+  584  ssh -i /tmp/oci_api_key.pem opc@144.22.253.17
+  585  ls -ltr /tmp/oci_api_key*
+  586  ssh -i /tmp/oci_api_key.pem opc@144.22.253.17
+  587  ssh -i /tmp/oci_api_key.pem ubuntu@144.22.253.17
+  588  terraform destroy
+  589  terraform plan
+  590  echo $TF_VAR_ssh_public_key
+  591  terraform apply
+  592  terraform plan
+  593  terraform destroy
+  594  terraform plan
+  595  cd 
+  596  cd .ssh
+  597  ll
+  598  cat id_ed25519.pub
+  599  history|grep key
+  600  ssh-keygen -h
+  601  ssh-keygen --h
+  602  ll
+  603  pwd
+  604  terraform plan
+  605  terraform apply
+  606  ssh -i /home/donato/.ssh/id_ed25519 ubuntu@152.67.34.97
+  607  cp -p id* /home/donato/shared
+  608  terraform destroy
+  609  ip a
+  610  top
+  611  sudo init 0
+  612  omz --help
+  613  history
+  614  cd Documents/workspace/estudos/terraform/HubAndSpoke/test
+  615  ll
+  616  git log
+  617  ls -ltra
+  618  cd ..
+  619  ls -ltra
+  620  git log
+  621  cat terraform.tfvars
+  622  cat variables.tf
+  623  ls -ltra
+  624  cat network.tf
+  625  grep compartment_ocid *
+  626  cd test
+  627  grep compartment_ocid *
+  628  top
+  629  cat /etc/fstab
+  630  top
+  631  sudo su -
+  632  hist
+  633  history
+  634  history |grep rus
+  635  sudo su -
+  636  history 
+  637  man aptitude
+  638  sudo aptitude show terraform
+  639  cd Documents/workspace/estudos/terraform/HubAndSpoke/test
+  640  LL
+  641  ll
+  642  cat main.tf
+  643  ping 192.168.136.222
+  644  telnet 192.168.136.222 2049
+  645  telnet 192.168.136.222 22
+  646  telnet 192.168.56.222 22
+  647  ping 192.168.56.222
+  648  telnet 192.168.136.222 22
+  649  telnet 192.168.136.222 2049
+  650  ping 192.168.56.1
+  651  ping www.google.com
+  652  ip a
+  653  sudo sudo ip addr del 192.168.136.223/24 dev enp0s9
+  654  sudo ip addr del 192.168.136.223/24 dev enp0s9
+  655  ip a
+  656  sudo ip addr del 192.168.136.223/24 dev enp0s9
+  657  ip a
+  658  sudo ip addr del 192.168.136.223/24 dev enp0s9
+  659  ip a
+  660  telnet 192.168.136.222 22
+  661  telnet 192.168.136.222 2049
+  662  mount 192.168.136.222/block -t nfs /mnt
+  663  sudo mount 192.168.136.222/block -t nfs /mnt
+  664  man ldd
+  665  ldd /bin/ls
+  666  ldd git
+  667  whereis git
+  668  ldd /usr/bin/git
+  669  docker
+  670  ps -ef --forest
+  671  docker ls
+  672  alias
+  673  dclsa
+  674  sudo apt search containerd.io
+  675  sudo apt update
+  676  sudo apt search containerd.io
+  677  sudo apt search containerd
+  678  man gpg
+  679  gpg --help
+  680  top
+  681  docker ls
+  682  docker ps -a
+  683  sudo apt update
+  684  sudo apt upgrade -y
+  685  ip a
+  686  sudo ufw status
+  687  sudo service --status-all
+  688  sudo iptables
+  689  sudo iptables -h
+  690  sudo iptables -L --v
+  691  sudo iptables -L -v
+  692  sudo service --status-all|grep ssh
+  693  sudo apt install openssh-server -y
+  694  top
+  695  ps -ef grep apt
+  696  ps -ef |grep apt
+  697  sudo kill -9 16241
+  698  sudo apt upgrade -y
+  699  sudo cd /var/lib/dpkg
+  700  cd /var/lib/dpkg
+  701  ll
+  702  mv lock lock.old
+  703  sudo mv lock lock.old
+  704  sudo apt upgrade -y
+  705  sudo dpkg --configure -a
+  706  sudo apt upgrade -y
+  707  sudo apt --fix-broken install
+  708  sudo apt upgrade -y
+  709  sudo apt search docker-compose
+  710  sudo apt install docker-compose
+  711  sudo iptables -A INPUT -p tcp -dport 22 -j ACCEPT
+  712  sudo iptables -A INPUT -p tcp --dport 22 -j ACCEPT
+  713  sudo  init 0
+  714  mkdir -p n8n-server/n8n-data
+  715  id
+  716  ll
+  717  ls -ltraR
+  718  cd n8n-server
+  719  ll
+  720  vi docker-compose.yml
+  721  docker compose up -d
+  722  docker-compose up -d
+  723  ip 
+  724  ip a
+  725  sudo hostnamectl set-hostname lixo
+  726  sudo reboot
+  727  docker
+  728  docker ps -a
+  729  ip a
+  730  docker ps -a
+  731  docker start 75cfa52b4d42
+  732  docker ps -a
+  733  docker logs 75cfa52b4d42
+  734  sudo iptables -L -v
+  735  sudo iptables -A INPUT -p tcp --dport 5678 -j ACCEPT
+  736  sudo iptables -L -v
+  737  ip a
+  738  docker ps -a
+  739  history
+  740  cd
+  741  cd n8n-server
+  742  ll
+  743  cd Desktop
+  744  cd
+  745  cd devops
+  746  ll
+  747  cd workspace/
+  748  ll
+  749  cd
+  750  ls -ltraR|more
+  751  ll
+  752  cd Documents/workspace/estudos/terraform/HubAndSpoke/test
+  753  ll
+  754  cat main.tf
+  755  cd
+  756  sudo service
+  757  sudo service --status-all
+  758  sudo apt install openssh-server -y
+  759  mkdir -p Documents/workspace/estudos/docker
+  760  cd Documents/workspace/estudos/docker
+  761  git
+  762  git clone https://github.com/jorgedonatodba/devops-directive-docker-course.git
+  763  ll
+  764  cd devops-directive-docker-course
+  765  ll
+  766  cd 04-using-3rd-party-containers
+  767  ll
+  768  cd ..
+  769  cd Documents/workspace/estudos/docker/devops-directive-docker-course
+  770  ll
+  771  docker ps -a
+  772  docker stop 75
+  773  docker ps -a
+  774  docker net ls
+  775  docker network ls
+  776  docker network
+  777  docker network inspect
+  778  docker network inspect 39661c848826
+  779  docker network inspect $(docker network ls -q)
+  780  cd Documents/workspace/estudos/docker/devops-directive-docker-course
+  781  ll
+  782  cd 08-running-containers
+  783  ll
+  784  cat Makefile
+  785  make compose-build
+  786  docker compose up -d
+  787  docker compose
+  788  sudo apt search docker-compose
+  789  docker-compose up -d
+  790  cd Documents/workspace/estudos/docker/devops-directive-docker-course
+  791  cd 08-running-containers
+  792  vi Makefile
+  793  cd 
+  794  cd .ssh
+  795  ll
+  796  docker login
+  797  git login
+  798  git logs
+  799  git log
+  800  cd Documents/workspace/estudos/docker/devops-directive-docker-course
+  801  cd
+  802  cd Documents/workspace/estudos/docker/devops-directive-docker-course
+  803  git log
+  804  history
+  805  git add .
+  806  git log
+  807  cd 08-running-containers
+  808  git add .
+  809  git commit -m "docker compose is now called as docker-compose"
+  810  git push
+  811  docker version
+  812  export DOCKER_BUILDKIT=1
+  813  docker-compose up -d
+  814  sudo apt install docker-buildx-plugin
+  815  code .
+  816  sudo apt update
+  817  sudo apt search buildx
+  818  sudo apt install docker-buildx
+  819  docker-compose build
+  820  docker ps -a
+  821  docker image ls
+  822  docker image rm node
+  823  docker image rm node:19.4-bullseye
+  824  docker image ls
+  825  ll
+  826  vi Makefile
+  827  make compose-build
+  828  cd ..
+  829  code .
+  830  top
+  831  cd Documents/workspace/estudos/docker/devops-directive-docker-course
+  832  cd 08-running-containers
+  833  cat Makefile
+  834  cat docker-compose.yml
+  835  cd ../../06-building-container-images/api-golang
+  836  cd ../06-building-container-images/api-golang
+  837  ll
+  838  vi Dockerfile.6
+  839  make compose-build
+  840  vi Dockerfile.6
+  841  cd ..
+  842  cd api-node
+  843  ll
+  844  vi Dockerfile.7
+  845  make compose-build
+  846  docker ps -a
+  847  docker image ls
+  848  make compose-up
+  849  docker ps -a
+  850  docker rm 75cfa52b4d42
+  851  docker ps -a
+  852  docker logs efdc21a95af5
+  853  cd Documents/workspace/estudos/docker/devops-directive-docker-course
+  854  ip a
+  855  sudo iptables -L -v
+  856  docker ps -a
+  857  make compose-stop
+  858  cd 08-running-containers
+  859  make compose-stop
+  860  cat Makefile
+  861  make docker-stop
+  862  docker ps -a
+  863  docker stop $(docker ps -aq)
+  864  docker scout api-node
+  865  sudo apt search scout
+  866  curl -fsSL https://raw.githubusercontent.com/docker/scout-cli/main/install.sh -o install-scout.sh
+  867  sh install-scout.sh
+  868  docker scout api-node
+  869  docker scout cves api-node
+  870  docker login
+  871  docker scout cves api-node
+  872  cat Makefile
+  873  cd 06-building-container-images
+  874  ll
+  875  cd api-node
+  876  vi Dockerfile.7
+  877  ll
+  878  cat Dockerfile.8
+  879  cat Dockerfile.9
+  880  vi Dockerfile.7
+  881  docker pull chainguard/node:latest\n
+  882  docker image ls
+  883  DOCKERCONTEXT_DIR:=../05-example-web-application/\nDOCKERFILE_DIR:=../06-building-container-images/\n
+  884  export DOCKERCONTEXT_DIR:=../05-example-web-application/\nDOCKERFILE_DIR:=../06-building-container-images/\n
+  885  export DOCKERCONTEXT_DIR=../05-example-web-application/\nDOCKERFILE_DIR:=../06-building-container-images/\n
+  886  export DOCKERCONTEXT_DIR=../05-example-web-application/\nexport DOCKERFILE_DIR=../06-building-container-images/\n
+  887  docker build -t api-node -f ${DOCKERFILE_DIR}/api-node/Dockerfile.7 ${DOCKERCONTEXT_DIR}/api-node/
+  888  docker scout cves api-node
+  889  docker image ls
+  890  docker image inspect api-node
+  891  cd ../../05
+  892  cd ../../05-example-web-application
+  893  ll
+  894  cd api-node
+  895  ll
+  896  vi package.json
+  897  ll
+  898  cat package-lock.json
+  899  cd ../06-building-container-images/api-node
+  900  ll
+  901  vi Dockerfile.7
+  902  export DOCKERCONTEXT_DIR=../05-example-web-application/\nexport DOCKERFILE_DIR=../06-building-container-images/\n
+  903  docker build -t api-node -f ${DOCKERFILE_DIR}/api-node/Dockerfile.7 ${DOCKERCONTEXT_DIR}/api-node/
+  904  cd .. 
+  905  cd ..
+  906  cd 08-running-containers
+  907  export DOCKERCONTEXT_DIR=../05-example-web-application/\nexport DOCKERFILE_DIR=../06-building-container-images/\n
+  908  docker build -t api-node -f ${DOCKERFILE_DIR}/api-node/Dockerfile.7 ${DOCKERCONTEXT_DIR}/api-node/
+  909  cd ../05-example-web-application
+  910  ll
+  911  export DOCKERCONTEXT_DIR=../05-example-web-application/\nexport DOCKERFILE_DIR=../06-building-container-images/\n
+  912  history
+  913  ls -ltra ${DOCKERCONTEXT_DIR}/api-node/
+  914  vi ${DOCKERFILE_DIR}/api-node/Dockerfile.7
+  915  docker build -t api-node -f ${DOCKERFILE_DIR}/api-node/Dockerfile.7 ${DOCKERCONTEXT_DIR}/api-node/
+  916  vi ${DOCKERFILE_DIR}/api-node/Dockerfile.7
+  917  docker build -t api-node -f ${DOCKERFILE_DIR}/api-node/Dockerfile.7 ${DOCKERCONTEXT_DIR}/api-node/
+  918  cd ..
+  919  code .
+  920  cd ..
+  921  ll
+  922  rm -rf devops-directive-docker-course
+  923  git clone https://github.com/jorgedonatodba/devops-directive-docker-course.git
+  924  docker ps -a
+  925  docker rm -f $(docker ps -aq)
+  926  docker image ls
+  927  docker image rm -f $(docker image ls -aq)
+  928  docker image ls
+  929  top
+  930  docker image rm -f $(docker image ls -aq)
+  931  docker image ls
+  932  cd Documents/workspace/estudos/docker
+  933  git clone https://github.com/jorgedonatodba/conversao-temperatura.git
+  934  ll
+  935  cd conversao-temperatura
+  936  ll
+  937  docker build -t teste:v1 .
+  938  docker build -t teste:v2 .
+  939  docker run -d -p 80:8080 teste:v2 --name teste
+  940  docker logs teste
+  941  docker ps -a
+  942  docker run -p 80:8080 teste:v2 --name teste
+  943  docker rm -f $(docker ps -aq)
+  944  docker run -p 80:8080 teste:v2 --name teste
+  945  docker rm -f $(docker ps -aq)
+  946  docker run --name teste -p 80:8080 teste:v2 
+  947  docker rm -f $(docker ps -aq)
+  948  docker image rm -f $(docker image ls -aq)
+  949  docker build -t teste:v1 ./src
+  950  docker build -t -f . teste:v1 ./src
+  951  docker build -t teste:v1 . 
+  952  cd src
+  953  docker build -t teste:v1 . 
+  954  docker image rm -f $(docker image ls -aq)
+  955  docker build -t teste:v1 . 
+  956  docker run --name teste -p 80:8080 teste:v1
+  957  docker build -t teste:v1 . 
+  958  docker run --name teste -p 80:8080 teste:v1
+  959  docker rm -f $(docker ps -aq)
+  960  docker run --name teste -p 80:8080 teste:v1
+  961  docker rm -f $(docker ps -aq)
+  962  docker image rm -f $(docker image ls -aq)
+  963  docker build -t teste:v1 . 
+  964  docker run --name teste -p 80:8080 teste:v1
+  965  docker ps -a
+  966  docker logs teste
+  967  docker image rm -f $(docker image ls -aq)
+  968  docker rm -f $(docker ps -aq)
+  969  docker build -t teste:v1 . 
+  970  docker run --name teste -p 80:8080 teste:v1
+  971  docker rm -f $(docker ps -aq)
+  972  docker image rm -f $(docker image ls -aq)
+  973  docker build -t teste:v1 . 
+  974  docker image rm -f $(docker image ls -aq)
+  975  docker build -t teste:v1 . 
+  976  docker image rm -f $(docker image ls -aq)
+  977  docker build -t teste:v1 . 
+  978  docker image rm -f $(docker image ls -aq)
+  979  docker build -t teste:v1 . 
+  980  docker ps -a
+  981  docker image ls
+  982  ip a
+  983  service --status-all
+  984  ping www.google.com
+  985  ping 192.168.15.5
+  986  sudo iptables -L -v
+  987  sudo iptables -A INPUT -p tcp --dport 22 -j ACCEPT
+  988  sudo iptables -L -v
+  989  sudo systemctl start networking
+  990  sudo systemctl status networking
+  991  sudo systemctl restart networking
+  992  sudo systemctl status networking
+  993  ping 192.168.15.5
+  994  sudo iptables -A INPUT -p ipcm -j ACCEPT
+  995  sudo iptables -A INPUT -p icmp -j ACCEPT
+  996  ping 192.168.15.5
+  997  sudo iptables -L -v
+  998  ping 192.168.15.5
+  999  top
+ 1000  sudo reboot
+ 1001  ping 192.168.15.1
+ 1002  ping 192.168.15.5
+ 1003  cd python/mendes002
+ 1004  ll
+ 1005  python3 main.py
+ 1006  cd ../../..
+ 1007  ll
+ 1008  cd ..
+ 1009  mkdir python
+ 1010  cd python
+ 1011  ll
+ 1012  git clone git@github.com:jorgedonatodba/live-de-python.git
+ 1013  df .h .
+ 1014  df -H .
+ 1015  ll
+ 1016  git clone git@github.com:jorgedonatodba/live-de-python.git
+ 1017  docker image ls
+ 1018  docker image rm -f $(docker image ls -aq)
+ 1019  docker system prune
+ 1020  top
+ 1021  docker 
+ 1022  docker ps -a
+ 1023  cd Documents/workspace/estudos/docker
+ 1024  ll
+ 1025  cd devops-directive-docker-course
+ 1026  ll
+ 1027  cd 08-running-containers
+ 1028  ll
+ 1029  vi Makefile
+ 1030  make compose-build
+ 1031  docker image ls 
+ 1032  cd Documents/workspace/estudos/docker/devops-directive-docker-course/08-running-containers
+ 1033  ll
+ 1034  view Makefile
+ 1035  ll
+ 1036  view Makefile
+ 1037  ll
+ 1038  cd Documents/workspace/estudos/docker/devops-directive-docker-course/08-running-containers
+ 1039  vi 
+ 1040  vi Makefile
+ 1041  ll
+ 1042  vi docker-compose.yml
+ 1043  docker image ls 
+ 1044  docker image rm -f $(docker image ls -aq)
+ 1045  make compose-build
+ 1046  vi docker-compose.yml
+ 1047  vi ../../06-building-container-images/api-node/Dockerfile.7
+ 1048  vi ../06-building-container-images/api-node/Dockerfile.7
+ 1049  make compose-build
+ 1050  make compose-up
+ 1051  docker ps -a
+ 1052  df -H
+ 1053  docker logs 838c8e4a9ab3
+ 1054  docker ps -a
+ 1055  cat Makefile
+ 1056  make docker-stop
+ 1057  docker ps -a
+ 1058  docker logs af80e6e96478
+ 1059  docker start af80e6e96478
+ 1060  docker logs af80e6e96478
+ 1061  docker ps -a
+ 1062  docker start 838c8e4a9ab3
+ 1063  docker ps -a
+ 1064  top
+ 1065  cd
+ 1066  mkdir -p Documents/workspace/estudos/git
+ 1067  cd Documents/workspace/estudos/git
+ 1068  ll
+ 1069  git config --list
+ 1070  history |grep git
+ 1071  cd ~/shared
+ 1072  ll
+ 1073  history > history_ip_101.txt
+ 1074  ll
+ 1075  cd
+ 1076  cd Documents/workspace/estudos/
+ 1077  ll
+ 1078  mkdir ETL
+ 1079  cd ETL
+ 1080  ll
+ 1081  history |python
+ 1082  history |grep python
+ 1083  python3 -m pip
+ 1084  sudo apt update
+ 1085  top
+ 1086  ip a
+ 1087  ping 192.168.15.1
+ 1088  ping 192.168.15.101
+ 1089  ping 192.168.15.1
+ 1090  sudo reboot
+ 1091  top
+ 1092  sudo apt update
+ 1093  ping 192.168.15.1
+ 1094  top
+ 1095  ping 192.168.15.1
+ 1096  sudo apt update
+ 1097  sudo reboot
+ 1098  sudo apt install python3-pip
+ 1099  python3 -m venv venv
+ 1100  sudo apt install python3.10-venv
+ 1101  python3 -m venv venv
+ 1102  python3 -m venv -h
+ 1103  ll
+ 1104  rm -rf venv
+ 1105  ll
+ 1106  cd Documents/workspace/estudos/ETL
+ 1107  ll
+ 1108  python3 -m venv venv
+ 1109  cd venv
+ 1110  cd bin
+ 1111  ll
+ 1112  ./activate
+ 1113  chmod 755 ./activate
+ 1114  ./activate
+ 1115  ll
+ 1116  ./activate
+ 1117  cd ../..
+ 1118  ll
+ 1119  source venv/bin/activate
+ 1120  pip install pandas
+ 1121  pip -h
+ 1122  pip search jupyter
+ 1123  source /home/donato/Documents/workspace/estudos/ETL/venv/bin/activate
+ 1124  ll
+ 1125  pip install jupyterlab
+ 1126  ll
+ 1127  jupyter lab
+ 1128  source /home/donato/Documents/workspace/estudos/ETL/venv/bin/activate
+ 1129  cd ..
+ 1130  ll
+ 1131  cd py
+ 1132  cd python/hashtag
+ 1133  ll
+ 1134  python3 -m venv hashtag
+ 1135  ll
+ 1136  source hashtag/bin/activate
+ 1137  source /home/donato/Documents/workspace/estudos/python/hashtag/hashtag/bin/activate
+ 1138  source hashtag/bin/deactivate
+ 1139  ll
+ 1140  cd hashtag
+ 1141  ll
+ 1142  cd bin
+ 1143  ll
+ 1144  cd Documents/workspace/estudos/python/hashtag
+ 1145  source /home/donato/Documents/workspace/estudos/python/hashtag/hashtag/bin/activate
+ 1146  cd Documents/workspace/estudos
+ 1147  cd
+ 1148  cd Documents/workspace/estudos
+ 1149  mkdir mongodb
+ 1150  cd mongodb
+ 1151  ll
+ 1152  docker ps -a
+ 1153  docker stop 9bb1d63ac85a 580688f9701f 93b5f4583027
+ 1154  docker ps -a
+ 1155  docker stop 9bb1d63ac85a 580688f9701f 93b5f4583027 838c8e4a9ab3 af80e6e96478
+ 1156  docker ps -a
+ 1157  docker image ls
+ 1158  ping www.google.com
+ 1159  docker pull mongo:noble
+ 1160  docker run -d --network some-network --name some-mongo --host some-mongo \\n\t-e MONGO_INITDB_ROOT_USERNAME=mongoadmin \\n\t-e MONGO_INITDB_ROOT_PASSWORD=secret \\n\t-mount type=volume,source=mongo_conf,target=/etc/mongo \\n\t-mount type=volume,source=mongo_db,target=/data/db \\n\tmongo:noble
+ 1161  docker run -h
+ 1162  docker run --help
+ 1163  docker run -h
+ 1164  docker run -d --network some-network --name some-mongo -h some-mongo \\n\t-e MONGO_INITDB_ROOT_USERNAME=mongoadmin \\n\t-e MONGO_INITDB_ROOT_PASSWORD=secret \\n\t-mount type=volume,source=mongo_conf,target=/etc/mongo \\n\t-mount type=volume,source=mongo_db,target=/data/db \\n\tmongo:noble\n
+ 1165  docker run -d --network some-network --name some-mongo -h some-mongo \\n\t-e MONGO_INITDB_ROOT_USERNAME=mongoadmin \\n\t-e MONGO_INITDB_ROOT_PASSWORD=secret \\n\t--mount type=volume,source=mongo_conf,target=/etc/mongo \\n\t--mount type=volume,source=mongo_db,target=/data/db \\n\tmongo:noble\n
+ 1166  docker network create some-network
+ 1167  docker run -d --network some-network --name some-mongo -h some-mongo \\n\t-e MONGO_INITDB_ROOT_USERNAME=mongoadmin \\n\t-e MONGO_INITDB_ROOT_PASSWORD=secret \\n\t--mount type=volume,source=mongo_conf,target=/etc/mongo \\n\t--mount type=volume,source=mongo_db,target=/data/db \\n\tmongo:noble\n
+ 1168  docker rm some-mongo
+ 1169  docker run -d --network some-network --name some-mongo -h some-mongo \\n\t-e MONGO_INITDB_ROOT_USERNAME=mongoadmin \\n\t-e MONGO_INITDB_ROOT_PASSWORD=secret \\n\t--mount type=volume,source=mongo_conf,target=/etc/mongo \\n\t--mount type=volume,source=mongo_db,target=/data/db \\n\tmongo:noble\n
+ 1170  docker ps -a
+ 1171  docker rm some-mongo
+ 1172  docker rm some-mongo -f
+ 1173  docker run -d --network some-network --name some-mongo -h some-mongo \\n\t-e MONGO_INITDB_ROOT_USERNAME=mongoadmin \\n\t-e MONGO_INITDB_ROOT_PASSWORD=secret \\n\t--mount type=volume,source=mongo_conf,target=/etc/mongo \\n\t--mount type=volume,source=mongo_db,target=/data/db \\n\t-p 27017:27017\n\tmongo:noble
+ 1174  docker run -d --network some-network --name some-mongo -h some-mongo \\n\t-e MONGO_INITDB_ROOT_USERNAME=mongoadmin \\n\t-e MONGO_INITDB_ROOT_PASSWORD=secret \\n\t--mount type=volume,source=mongo_conf,target=/etc/mongo \\n\t--mount type=volume,source=mongo_db,target=/data/db \\n\t-p 27017:27017 \\n\tmongo:noble
+ 1175  docker ps -a
+ 1176  docker ps 
+ 1177  docker exec -it some-mongo /bin/bash
+ 1178  cd ..
+ 1179  ll
+ 1180  cd git
+ 1181  ll
+ 1182  mkdir repo
+ 1183  ll
+ 1184  cd repo
+ 1185  git init
+ 1186  git config --list
+ 1187  ll
+ 1188  cd
+ 1189  ls -ltrha
+ 1190  cat .oh-my-zsh
+ 1191  vi .zshrc
+ 1192  cat .profile
+ 1193  alias
+ 1194  ll
+ 1195  ls -ltrha
+ 1196  cd .oh-my-zsh
+ 1197  ll
+ 1198  cd .oh-my-zsh
+ 1199  ls -ltrha
+ 1200  cd
+ 1201  ls -ltrha
+ 1202  vi .zshrc
+ 1203  cd Documents/workspace/estudos/git/repo
+ 1204  ll
+ 1205  touch arquivo.txt
+ 1206  git status
+ 1207  git add -
+ 1208  git add .
+ 1209  git status
+ 1210  git commit -m "Novo Arquivo"
+ 1211  git log
+ 1212  pwd
+ 1213  git status.
+ 1214  git status
+ 1215  git add .
+ 1216  git commit -m "Arquivo Alterado"
+ 1217  git log
+ 1218  ll
+ 1219  echo "oooooooooooooooo" >> arquivo.txt
+ 1220  git status
+ 1221  git commit -m -a "Arquivo Alterado" arquivo.txt
+ 1222  git commit -a arquivo.txt -m  "Arquivo Alterado"
+ 1223  git commit  -m "Arquivo Alterado" -a ararquivo.txt
+ 1224  git commit  -m "Arquivo Alterado" -a arquivo.txt
+ 1225  git commit  -a -m "Arquivo Alterado" arquivo.txt
+ 1226  git commit -h
+ 1227  git commit -a -m "Arquivo Alterado" -o arquivo.txt
+ 1228  git commit -a -m "Arquivo Alterado" -o arquivo.txt --dry-run
+ 1229  git commit -m "Arquivo Alterado" -o arquivo.txt --dry-run
+ 1230  git status
+ 1231  git commit -m "Arquivo Alterado" -o arquivo.txt --dry-run
+ 1232  git commit -m "Arquivo Alterado" -o arquivo.txt
+ 1233  git status
+ 1234  git log
+ 1235  git commit -m "Linhas adicionadas" -o arquivo.txt
+ 1236  l
+ 1237  touch .gitignore
+ 1238  ll
+ 1239  ls -ltrha
+ 1240  git log
+ 1241  git commit -m "Adicionando arquivo .gitignore" -o arquivo.txt
+ 1242  git commit -m "Adicionando arquivo .gitignore" -o .gitignore
+ 1243  git commit -m "Adicionando arquivo .gitignore" -a
+ 1244  git commit -a -m "Adicionando arquivo .gitignore"
+ 1245  git commit -a -m "Adicionando arquivo gitignore"
+ 1246  ls -ltrha
+ 1247  rm -rf .gitignore
+ 1248  git status
+ 1249  git commit -a -m "Adicionando arquivo .gitignore"
+ 1250  git add .
+ 1251  git commit -m "Adicionando arquivo .gitignore"
+ 1252  mkdir bin
+ 1253  touch dados.log
+ 1254  ls -ltrha
+ 1255  git status
+ 1256  rm -rf bin dados.log
+ 1257  ll
+ 1258  git branch feature/novo_arquivo
+ 1259  git branch
+ 1260  git checkout feature/novo_arquivo
+ 1261  git branch
+ 1262  git checkout main
+ 1263  git status
+ 1264  git checkout feature/novo_arquivo
+ 1265  git status
+ 1266  git add .
+ 1267  git status
+ 1268  git checkout main
+ 1269  git status
+ 1270  git checkout feature/novo_arquivo
+ 1271  git checkout main
+ 1272  git checkout feature/novo_arquivo
+ 1273  git commit -m "Add Nova Linha"
+ 1274  git checkout main
+ 1275  git status
+ 1276  ll
+ 1277  cat arquivo.txt
+ 1278  git checkout feature/novo_arquivo
+ 1279  cat arquivo.txt
+ 1280  git branch -m feature/novo_arquivo_texto
+ 1281  git checkout main
+ 1282  git branch -D feature/novo_arquivo_texto
+ 1283  git branch
+ 1284  git branch feature/vou_qq
+ 1285  git branch -d feature/vou_qq
+ 1286  git branch
+ 1287  ll
+ 1288  git checkout -b feature/arquivo_xpto
+ 1289  echo "branch feature/arquivo_xpto" > xpto.txt.
+ 1290  ll
+ 1291  echo "branch feature/arquivo_xpto" > xpto.txt
+ 1292  rm -rf "xpto.txt."
+ 1293  ll
+ 1294  cat xpto.txt
+ 1295  git add .
+ 1296  git commit -m "Adicionando arquivo xpto.txt"
+ 1297  git log
+ 1298  git checkout main
+ 1299  ll
+ 1300  echo "branch main" > arquivo.txt
+ 1301  git add .
+ 1302  git commit -m "Adicionando linha branch main"
+ 1303  git checkout feature/arquivo_xpto
+ 1304  git checkout main
+ 1305  git merge feature/arquivo_xpto
+ 1306  ll
+ 1307  git branch -d feature/arquivo_xpto
+ 1308  git checkout -b feature/arquivo_rebase
+ 1309  echo "Adicionando o arquivo rebase.txt" > rebase.txt
+ 1310  git status
+ 1311  git add .
+ 1312  git commit -m "Adicionando o arquivo rebase.txt"
+ 1313  git log
+ 1314  git checkout main
+ 1315  echo "Adicionando o arquivo main.txt" > main.txt
+ 1316  ll
+ 1317  git status
+ 1318  git add .
+ 1319  git commit -m "Adicionando o arquivo main.txt"
+ 1320  git log
+ 1321  git checkout feature/arquivo_rebase
+ 1322  ll
+ 1323  echo "Nova linha no arquivo rebase.txt" > rebase.txt
+ 1324  git status
+ 1325  git restore rebase.txt
+ 1326  cat rebase.txt
+ 1327  echo "Nova linha no arquivo rebase.txt" >> rebase.txt
+ 1328  cat rebase.txt
+ 1329  git add .
+ 1330  git commit -m "Nova linha no arquivo rebase.txt"
+ 1331  git status
+ 1332  git log
+ 1333  git checkout main
+ 1334  git merge feature/arquivo_rebase
+ 1335  git log
+ 1336  git reset -hard 7d2ff81a41e9c34ef393a631bd8d4290f60efc29
+ 1337  git reset --hard 7d2ff81a41e9c34ef393a631bd8d4290f60efc29
+ 1338  git rebase feature/arquivo_rebase
+ 1339  git log
+ 1340  ping www.google.com
+ 1341  ip a
+ 1342  ping www.google.com
+ 1343  ping 192.168.15.5
+ 1344  sudo reboot
+ 1345  ping 192.168.15.5
+ 1346  ping www.google.com
+ 1347  cd Documents/workspace/estudos/git/repo
+ 1348  ll
+ 1349  ping 192.168.15.5
+ 1350  git branch -d feature/arquivo_rebase
+ 1351  git log
+ 1352  git checkout -b feature/arquivo_novo
+ 1353  ll
+ 1354  echo "Novo aqrquivo" >> novoarquivo.txt
+ 1355  ll
+ 1356  git status
+ 1357  git add .
+ 1358  git commit -m "Adicionando novo arquivo"
+ 1359  git checkout main
+ 1360  git checkout -b hotfix
+ 1361  echo "Arquivo correcao" >> correcao.txt
+ 1362  ll
+ 1363  git add .
+ 1364  git commit -m "Adicionando correcao"
+ 1365  git log
+ 1366  git checkout feature/arquivo_novo
+ 1367  ll
+ 1368  git cherry-pick 8432eb6b34a27643f5e24cea589417b475b2e3da
+ 1369  ll
+ 1370  ping www.google.com
+ 1371  ll
+ 1372  git checkout main
+ 1373  git tag
+ 1374  git branch
+ 1375  git tag -a 2.0 -m "Versão 2.0"
+ 1376  git tag
+ 1377  git log
+ 1378  git tag -a 1.0 -m "Versão 1.0" 673ab47c8890053304ea52200f0488ffb0a50ab0
+ 1379  git log
+ 1380  git show
+ 1381  git show 2.0
+ 1382  git tag -d 2.0
+ 1383  git show 2.0
+ 1384  git log
+ 1385  exit
+ 1386  cd Documents/workspace/estudos/git/repo
+ 1387  history
+ 1388  cd 
+ 1389  cd ~/.ssh
+ 1390  ll
+ 1391  cat id_ed25519.pub
+ 1392  git remote add origin git@github.com:jorgedonatodba/aula_git.git
+ 1393  cd
+ 1394  cd Documents/workspace/estudos/git/repo
+ 1395  git remote add origin git@github.com:jorgedonatodba/aula_git.git
+ 1396  git branch -M main
+ 1397  git push -u origin main
+ 1398  cd ..
+ 1399  ll
+ 1400  rm -rf repo
+ 1401  git clone git@github.com:jorgedonatodba/aula_git.git
+ 1402  ll
+ 1403  cd aula_git
+ 1404  ll
+ 1405  git branch
+ 1406  git checkout -b novabranch
+ 1407  ll
+ 1408  echo "Nova linha repo remoto" >> main.txt
+ 1409  git add .
+ 1410  git commit -m "Alteração arq main - teste remoto"
+ 1411  git status
+ 1412  git log
+ 1413  git push
+ 1414  git push --set-upstream origin novabranch
+ 1415  git branch
+ 1416  git log
+ 1417  git checkout main
+ 1418  cat arquivo.txt
+ 1419  git pull
+ 1420  cat arquivo.txt
+ 1421  git merge novabranch
+ 1422  git push
+ 1423  echo "Nova linha arquivo main" >> main.txt
+ 1424  git commit -m "Nova linha no arquivo main.txt" -a
+ 1425  git push
+ 1426  git pull
+ 1427  git config pull.rebase false
+ 1428  git pull --no-rebase
+ 1429  git log
+ 1430  git pull --no-rebase
+ 1431  git log
+ 1432  git push
+ 1433  git log
+ 1434  git add .
+ 1435  git commit -m "Alteração local"
+ 1436  git pull
+ 1437  git add .
+ 1438  git commit
+ 1439  git log
+ 1440  git push
+ 1441  echo "Nova linha local fetch" >> main.txt
+ 1442  git commit -m "Nova alteração local fetch" -a
+ 1443  cat main.txt
+ 1444  git log
+ 1445  git pull
+ 1446  git status
+ 1447  git merge --abort
+ 1448  git fetch
+ 1449  ll
+ 1450  git branch
+ 1451  git branch -r
+ 1452  cat main.txt
+ 1453  git log
+ 1454  git branch -r
+ 1455  git log
+ 1456  git branch -r
+ 1457  git chechout origin/main
+ 1458  git checkout origin/main
+ 1459  git log
+ 1460  cat main.txt
+ 1461  git diff main origin/main
+ 1462  git checkout main
+ 1463  git merge origin/main
+ 1464  git add .
+ 1465  git commit -m "Resolvendo conflito"
+ 1466  git push
+ 1467  git log
+ 1468  git log main.txt
+ 1469  git log --oneline
+ 1470  git log --oneline main.txt
+ 1471  git log --oneline
+ 1472  git branch -d novabranch
+ 1473  git log --oneline
+ 1474  git branch -d origin/novabranch
+ 1475  git log --oneline
+ 1476  git branch -d origin/novabranch
+ 1477  git branch -D origin/novabranch
+ 1478  git ls-remote origin
+ 1479  git branch -d 7833b8675913be777bb8628edeb3625fe96f01c9
+ 1480  git branch -d refs/heads/novabranch
+ 1481  history|grep novabranch
+ 1482  git branch -d remote origin/novabranch
+ 1483  git branch -h
+ 1484  git branch -d -r origin/novabranch
+ 1485  git log -h
+ 1486  git log -p
+ 1487  git log -stat
+ 1488  git log --stat
+ 1489  git log --graph --oneline
+ 1490  git log --graph --oneline main.txt
+ 1491  docker network ls
+ 1492  docker network inspect some-network
+ 1493  docker ps 
+ 1494  docker ps -a
+ 1495  docker container inspect some-mongo
+ 1496  docker network inspect some-network
+ 1497  sudo reboot
+ 1498  docker ps -a
+ 1499  docker rm -f $(docker ps -aq)
+ 1500  docker ps -a
+ 1501  sudo snap search minikube
+ 1502  sudo snap search mini
+ 1503  sudo snap search mini-kube
+ 1504  sudo apt search minikube
+ 1505  sudo apt update
+ 1506  sudo apt search minikube
+ 1507  pwd
+ 1508  curl -LO https://github.com/kubernetes/minikube/releases/latest/download/minikube-linux-amd64
+ 1509  sudo install minikube-linux-amd64 /usr/local/bin/minikube && rm minikube-linux-amd64
+ 1510  minikube start
+ 1511  docker ps -a
+ 1512  sudo snap search kubectl
+ 1513  sudo snap innstall kubectl --classic
+ 1514  sudo snap install kubectl --classic
+ 1515  alias kubectl="minikube kubectl --"\n
+ 1516  ll
+ 1517  alias
+ 1518  ls -ltrha
+ 1519  cat .zshrc
+ 1520  cat .profile
+ 1521  cat .bashrc
+ 1522  vi .bashrc
+ 1523  whereis kubectl 
+ 1524  kgpo
+ 1525  kgp
+ 1526  alias
+ 1527  cat .zshrc
+ 1528  exit
+ 1529  kgp
+ 1530  alias
+ 1531  kgaa
+ 1532  cd Documents/workspace/estudos/
+ 1533  ll
+ 1534  mkdir observability-in-deep
+ 1535  cd observability-in-deep
+ 1536  git clone git@github.com:jorgedonatodba/loki.git
+ 1537  cd loki
+ 1538  ll
+ 1539  cd scripts
+ 1540  ll
+ 1541  cat initial_and_run_setup.sh
+ 1542  kgaa
+ 1543  sudo snap search helm
+ 1544  sudo snap install helm --classic
+ 1545  ll
+ 1546  ./install.sh
+ 1547  kgaa
+ 1548  ll
+ 1549  cat initial_and_run_setup.sh
+ 1550  cat install.sh
+ 1551  kgaa
+ 1552  helm --help
+ 1553  helm uninstall loki
+ 1554  helm uninstall grafana
+ 1555  kgaa
+ 1556  cat install.sh
+ 1557  helm upgrade --install grafana  oci://registry-1.docker.io/bitnamicharts/grafana
+ 1558  kgaa
+ 1559  k describe po pod/grafana-7c85d885-5bgr5
+ 1560  k describe pod/grafana-7c85d885-5bgr5
+ 1561  helm uninstall grafana
+ 1562  helm upgrade --install grafana  oci://registry-1.docker.io/bitnamicharts/grafana --version 11.4.4
+ 1563  k describe pod/grafana-7c85d885-5bgr5
+ 1564  kgaa
+ 1565  k describe pod/grafana-779fd48c45-bfdsr
+ 1566  helm uninstall grafana
+ 1567  helm pull oci://registry-1.docker.io/bitnamicharts/grafana --version 11.4.10
+ 1568  helm upgrade --install grafana  oci://registry-1.docker.io/bitnamicharts/grafana --version 11.4.10
+ 1569  kgaa
+ 1570  k describe pod/grafana-78bcbfcf8d-v4m7f
+ 1571  top
+ 1572  helm repo add grafana https://grafana.github.io/helm-charts
+ 1573  helm repo list
+ 1574  helm search repo grafana/grafana
+ 1575  helm install grafana grafana/grafana
+ 1576  helm install grafana grafana/grafana --version 11.4.4
+ 1577  helm search repo grafana/grafana
+ 1578  helm list
+ 1579  kgaa
+ 1580  k describe pod/grafana-78bcbfcf8d-v4m7f
+ 1581  helm repo update
+ 1582  helm list
+ 1583  helm repo list
+ 1584  helm delete grafana
+ 1585  helm repo list
+ 1586  helm list
+ 1587  helm install grafana grafana/grafana
+ 1588  helm delete grafana
+ 1589  helm --help
+ 1590  helm install --help
+ 1591  helm install grafana grafana/grafana --version 11.4.4 --debug --dry-run
+ 1592  helm repo update
+ 1593  history|grep helm
+ 1594  helm repo add --help
+ 1595  helm install grafana grafana/grafana --version 11.4.4 --debug --dry-run -o yaml > donato.yaml
+ 1596  cat donato.yaml
+ 1597  helm install grafana grafana/grafana --version 11.4.4 -o yaml > donato.yaml
+ 1598  cat donato.yaml
+ 1599  ll
+ 1600  helm delete grafana
+ 1601  kgaa
+ 1602  ll
+ 1603  cd Documents/workspace/estudos/observability-in-deep
+ 1604  ll
+ 1605  cd loki
+ 1606  ll
+ 1607  cd k8s
+ 1608  ll
+ 1609  cat values.yaml
+ 1610  cd ..
+ 1611  ll
+ 1612  cat makefile
+ 1613  minikube status
+ 1614  helm list
+ 1615  kgaa
+ 1616  vi ./scripts/install.sh
+ 1617  history|grep helm
+ 1618  helm --help
+ 1619  helm show grafana
+ 1620  helm show all grafana
+ 1621  helm show all grafana/grafana
+ 1622  helm show all grafana/grafana|more
+ 1623  helm install grafana grafana/grafana --version 10.3.1
+ 1624  helm list
+ 1625  kgaa
+ 1626  k describe pod/grafana-6dbbd6b48c-lttbm
+ 1627  kgaa
+ 1628  k describe pod/grafana-6dbbd6b48c-lttbm
+ 1629  kgaa
+ 1630  helm repo add loki https://grafana.github.io/loki/charts
+ 1631  helm repo add grafana https://grafana.github.io/helm-charts
+ 1632  helm install loki grafana/loki --version 6.48.0
+ 1633  helm repo list
+ 1634  helm install loki grafana/loki
+ 1635  helm delete loki 
+ 1636  helm install loki grafana/loki --version 6.33.0
+ 1637  helm delete loki 
+ 1638  helm install loki grafana/loki --version 6.45.0
+ 1639  ll
+ 1640  cat ./k8s/values.yaml
+ 1641  helm delete loki 
+ 1642  helm repo list
+ 1643  history|grep helm
+ 1644  helm show all grafana/grafana|more
+ 1645  helm show all grafana/loki|more
+ 1646  helm delete loki 
+ 1647  helm install loki grafana/loki --version 6.44.0
+ 1648  helm repo list
+ 1649  helm list
+ 1650  helm install loki grafana/loki --version 6.44.0 --debug
+ 1651  helm delete loki 
+ 1652  helm install --help
+ 1653  ll
+ 1654  vi values.yaml
+ 1655  helm install loki grafana/loki --version 6.46.0 --debug -f ./values.yaml
+ 1656  helm list
+ 1657  kgaa
+ 1658  helm delete loki 
+ 1659  vi values.yaml
+ 1660  helm install loki grafana/loki --version 6.46.0 --debug -f ./values.yaml
+ 1661  helm delete loki 
+ 1662  vi values.yaml
+ 1663  helm install loki grafana/loki --version 6.46.0 --debug -f ./values.yaml
+ 1664  vi values.yaml
+ 1665  helm install loki grafana/loki --version 6.46.0 --debug -f ./values.yaml
+ 1666  vi values.yaml
+ 1667  helm install loki grafana/loki --version 6.46.0 --debug -f ./values.yaml
+ 1668  vi values.yaml
+ 1669  helm install loki grafana/loki --version 6.46.0 --debug -f ./values.yaml
+ 1670  kgaa
+ 1671  helm delete loki 
+ 1672  vi values.yaml
+ 1673  helm install loki grafana/loki --version 6.46.0 --debug -f ./values.yaml
+ 1674  vi values.yaml
+ 1675  helm delete loki 
+ 1676  helm install loki grafana/loki --version 6.46.0 --debug
+ 1677  helm install loki grafana/loki --version 4.7. --debug
+ 1678  helm install loki grafana/loki --version 4.7.3 --debug
+ 1679  ll
+ 1680  vi ./scripts/install.sh
+ 1681  helm upgrade --install loki  oci://registry-1.docker.io/bitnamicharts/grafana-loki
+ 1682  kgaa
+ 1683  helm delete loki 
+ 1684  helm upgrade --install loki  oci://registry-1.docker.io/bitnamicharts/grafana-loki:4.7.3
+ 1685  man watch
+ 1686  watch -n 5 kgaa
+ 1687  kgaa
+ 1688  helm pull oci://registry-1.docker.io/bitnamicharts/grafana-loki --version 6.0.6
+ 1689  helm upgrade --install loki  oci://registry-1.docker.io/bitnamicharts/grafana-loki:6.0.6
+ 1690  kgaa
+ 1691  helm delete loki 
+ 1692  kgaa
+ 1693  helm upgrade --install loki  oci://registry-1.docker.io/bitnamicharts/grafana-loki:6.0.6
+ 1694  kgaa
+ 1695  kdp pod/loki-grafana-loki-compactor-899d56994-pccmt
+ 1696  kdp loki-grafana-loki-compactor-899d56994-pccmt
+ 1697  helm delete loki 
+ 1698  helm upgrade --install loki  oci://registry-1.docker.io/bitnamilegacycharts/grafana-loki:6.0.6
+ 1699  helm upgrade --install loki  oci://registry-1.docker.io/bitnamilegacy/grafana-loki:6.0.6
+ 1700  helm upgrade --install loki  oci://registry-1.docker.io/bitnamilegacycharts/grafana-loki:6.0.6
+ 1701  helm upgrade --install loki  oci://registry-1.docker.io/bitnamicharts/grafana-loki:6.0.6 -o yaml
+ 1702  helm upgrade --install loki  oci://registry-1.docker.io/bitnamicharts/grafana-loki:6.0.6 -o yaml > donato.yaml
+ 1703  vi donato.yaml
+ 1704  cd Documents/workspace/estudos/observability-in-deep
+ 1705  ll
+ 1706  cd loki
+ 1707  ll
+ 1708  helm upgrade --help
+ 1709  ll
+ 1710  helm upgrade --install loki  -f donato.yaml
+ 1711  helm install loki  -f donato.yaml
+ 1712  helm upgrade --install loki  oci://registry-1.docker.io/bitnamicharts/grafana-loki:6.0.6 -f donato.yaml
+ 1713  helm delete loki 
+ 1714  vi donato.yaml
+ 1715  docker pull bitnamilegacy/grafana-loki:sha256-99b9dffd81315a25a1431a377162e4b77f158f7868d96b8cf9fa907799009382
+ 1716  docker pull bitnamilegacy/grafana-loki
+ 1717  helm delete loki 
+ 1718  vi donato.yaml
+ 1719  helm delete loki 
+ 1720  helm upgrade --install loki  oci://registry-1.docker.io/bitnamicharts/grafana-loki:6.0.6 -f donato.yaml
+ 1721  kgaa
+ 1722  helm delete loki 
+ 1723  kgaa
+ 1724  \thistory|grep helm
+ 1725  helm install loki grafana/loki --version 6.46.0 --debug
+ 1726  ll
+ 1727  cat values.yaml
+ 1728  helm search repo loki
+ 1729  helm show values grafana/loki-stack > loki-values.yaml
+ 1730  cat loki-values.yaml
+ 1731  vi loki-values.yaml
+ 1732  helm upgrade --install loki -f loki-values.yaml
+ 1733  helm upgrade --install loki -f loki-values.yaml -n logging --create-namespace grafana/loki-stack
+ 1734  kgaa
+ 1735  pwd
+ 1736  cd Documents/workspace/estudos/observability-in-deep
+ 1737  ll
+ 1738  vi deployment.yml
+ 1739  kgaa
+ 1740  helm delete loki 
+ 1741  helm delete loki -n logging
+ 1742  helm grafana loki 
+ 1743  helm delete grafana
+ 1744  kgaa
+ 1745  helm delete loki-promtail -n logging
+ 1746  k delete loki-promtail -n logging
+ 1747  k delete pod/loki-promtail -n logging
+ 1748  k delete pod/loki-promtail-dw4nv -n logging
+ 1749  kgaa
+ 1750  ll
+ 1751  cd Documents/workspace/estudos/observability-in-deep
+ 1752  ll
+ 1753  cd
+ 1754  ll
+ 1755  cat deployment.yml
+ 1756  k apply -f deployment.y
+ 1757  k apply -f deployment.yml
+ 1758  kgaa
+ 1759  ll
+ 1760  mv deployment.yml Documents/workspace/estudos/observability-in-deep/
+ 1761  kgaa
+ 1762  ll
+ 1763  cd Documents/workspace/estudos/observability-in-deep
+ 1764  ll
+ 1765  k delete -f deployment.yml
+ 1766  kgaa
+ 1767  helm repo add metrics-server https://kubernetes-sigs.github.io/metrics-server/
+ 1768  helm repo list
+ 1769  helm upgrade --install metrics-server metrics-server/metrics-server
+ 1770  kgaa
+ 1771  top
+ 1772  kgaa
+ 1773  k describe pod/metrics-server-7d694f9fb5-6z8mp
+ 1774  ss -plant4
+ 1775  kgaa
+ 1776  kubectl top nodes
+ 1777  kgaa
+ 1778  kubectl get pods -o wide
+ 1779  sudo iptables -L -v
+ 1780  history|grep iptables
+ 1781  sudo iptables -A INPUT -p tcp --dport 10250 -j ACCEPT
+ 1782  k describe pod/metrics-server-7d694f9fb5-6z8mp
+ 1783  kubectl get pods -o wide
+ 1784  kgaa
+ 1785  kubectl get pods all -o wide
+ 1786  kubectl get pods -o wide --all
+ 1787  kgaa
+ 1788  helm delete metrics-server
+ 1789  kubectl top pods
+ 1790  helm repo list
+ 1791  kubectl apply -f https://github.com/kubernetes-sigs/metrics-server/releases/latest/download/components.yaml
+ 1792  kgaa
+ 1793  k describe pod/metrics-server-75b5d87c9d-wxjs2
+ 1794  kgaa
+ 1795  k describe pod/metrics-server-75b5d87c9d-wxjs2
+ 1796  kubectl get pods -o wide
+ 1797  kubectl get pods -o wide -n kube-system
+ 1798  k describe pod/coredns-66bc5c9577-bg8sv
+ 1799  k describe pod/coredns-66bc5c9577-bg8sv -n kube-system
+ 1800  k describe pod/metrics-server-75b5d87c9d-wxjs2 -n kube-system
+ 1801  kubectl -n kube-system get deployment metrics-server -o yaml
+ 1802  kubectl patch deployment metrics-server -n kube-system --type='json' -p='[\n{\n"op": "add",\n"path": "/spec/template/spec/hostNetwork",\n"value": true\n},\n{\n"op": "replace",\n"path": "/spec/template/spec/containers/0/args",\n"value": [\n"--cert-dir=/tmp",\n"--secure-port=4443",\n"--kubelet-preferred-address-types=InternalIP,ExternalIP,Hostname",\n"--kubelet-use-node-status-port",\n"--metric-resolution=15s",\n"--kubelet-insecure-tls"\n]\n},\n{\n"op": "replace",\n"path": "/spec/template/spec/containers/0/ports/0/containerPort",\n"value": 4443\n}\n]'
+ 1803  k describe pod/metrics-server-75b5d87c9d-wxjs2 -n kube-system
+ 1804  kubectl -n kube-system get deployment metrics-server -o yaml
+ 1805  kgaa
+ 1806  kubectl top pods
+ 1807  kubectl top pods -n kube-system
+ 1808  pwd
+ 1809  cd Documents/workspace/estudos/observability-in-deep
+ 1810  ll
+ 1811  vi api.yml
+ 1812  ll
+ 1813  vi mongo.yml
+ 1814  ll
+ 1815  k apply -f mongo.yml
+ 1816  kgaa
+ 1817  k apply -f mongo.yml
+ 1818  kgaa
+ 1819  k describe pod/mongodb-deployment-7b79b69868-nm7xn
+ 1820  kubectl top pods
+ 1821  k describe pod/mongodb-deployment-7b79b69868-nm7xn
+ 1822  kgaa
+ 1823  ll
+ 1824  k apply -f api.yml
+ 1825  kgaa
+ 1826  k describe pod/api-859794fcf5-4gxmq
+ 1827  helm repo add prometheus-community https://prometheus-community.github.io/helm-charts
+ 1828  helm repo list
+ 1829  helm repo update
+ 1830  helm search repo prometheus
+ 1831  helm inpect values prometheus-community/prometheus
+ 1832  helm inspect values prometheus-community/prometheus
+ 1833  ll
+ 1834  helm inspect values prometheus-community/prometheus > values.yml
+ 1835  vi values.yml
+ 1836  helm search repo prometheus
+ 1837  helm upgrade --install prometheus prometheus-community/prometheus
+ 1838  kgaa
+ 1839  kubectl get pods --namespace default -l "app.kubernetes.io/name=prometheus,app.kubernetes.io/instance=prometheus" -o jsonpath="{.items[0].metadata.name}"
+ 1840  kgaa
+ 1841  k describe pod/prometheus-server-7dcfccccf-v8pdv
+ 1842  cd
+ 1843  ll
+ 1844  ls -ltrha
+ 1845  cd .kube
+ 1846  ll
+ 1847  cat config
+ 1848  ll
+ 1849  mv config config.minikube
+ 1850  vi config
+ 1851  kgaa
+ 1852  kubectl top pods
+ 1853  history|grep helm
+ 1854  helm repo list
+ 1855  ll
+ 1856  kgaa
+ 1857  ll
+ 1858  k apply -f mongo.yml
+ 1859  kgaa
+ 1860  k apply -f api.yml
+ 1861  kgaa
+ 1862  kgs service/api
+ 1863  kgs api
+ 1864  k delete -f api.yml
+ 1865  ll
+ 1866  vi api.yml
+ 1867  vi mongo.yml
+ 1868  k apply -f api.yml
+ 1869  kgaa
+ 1870  ll
+ 1871  cd 
+ 1872  cd Documents/workspace/estudos/observability-in-deep
+ 1873  ll
+ 1874  history|grep helm
+ 1875  helm upgrade --install metrics-server metrics-server/metrics-server\n
+ 1876  kgaa
+ 1877  helm upgrade --install prometheus prometheus-community/prometheus
+ 1878  kgaa
+ 1879  helm delete prometheus 
+ 1880  ll
+ 1881  rm -rf values.yml
+ 1882  helm inspect values prometheus-community/prometheus > values.yml
+ 1883  vi values.yml
+ 1884  helm upgrade --install prometheus prometheus-community/prometheus --values ./values.yml
+ 1885  kgaa
+ 1886  kgsa
+ 1887  vi values.yml
+ 1888  kill -9 306104
+ 1889  kgaa
+ 1890  ll
+ 1891  k apply -f mongo.yml
+ 1892  kgaa
+ 1893  k get po
+ 1894  k describe pod/mongodb-deployment-56c785d9d8-5p9pg
+ 1895  k apply -f mongo.yml
+ 1896  k get po
+ 1897  history|grep helm
+ 1898  ll
+ 1899  ls -ltrha
+ 1900  ls -ltrhaR
+ 1901  git branch
+ 1902  cd loki
+ 1903  git branch
+ 1904  git branchs
+ 1905  git branch
+ 1906  git remote 
+ 1907  git remote origin
+ 1908  git remote origin get-url
+ 1909  git remote origin get-url --all
+ 1910  git remote get-url --all
+ 1911  ll
+ 1912  git config --
+ 1913  git config --list
+ 1914  git push
+ 1915  cd
+ 1916  cd .kube
+ 1917  ll
+ 1918  rm -rf config
+ 1919  mv config.minikube config
+ 1920  ll
+ 1921  kgaa
+ 1922  mv config config.minikube
+ 1923  vi config
+ 1924  kgaa
+ 1925  cd Documents/workspace/estudos/observability-in-deep/
+ 1926  ll
+ 1927  cd
+ 1928  cd Documents/workspace/estudos/observability-in-deep/loki/fabricioveronez
+ 1929  kgs kubernetes -o yaml > s.yml
+ 1930  ll
+ 1931  cat s.yml
+ 1932  vi s.yml
+ 1933  k apply -f s.yml
+ 1934  vi s.yml
+ 1935  cat api.yml
+ 1936  cat s.yml
+ 1937  kgs kubernetes -o yaml > s.yml
+ 1938  vi s.yml
+ 1939  rm -rf s.yml
+ 1940  kgs kubernetes -o yaml > s.yml
+ 1941  vi s.yml
+ 1942  kgaa
+ 1943  history|grep helm
+ 1944  history|grep apply
+ 1945  k apply -f mongo.yml
+ 1946  kgaa
+ 1947  k apply -f api.yml
+ 1948  kgaa
+ 1949  helm upgrade --install metrics-server metrics-server/metrics-server
+ 1950  kgaa
+ 1951  helm upgrade --install prometheus prometheus-community/prometheus --values ./values.yml
+ 1952  ll
+ 1953  cd loki/fabricioveronez
+ 1954  helm upgrade --install prometheus prometheus-community/prometheus --values ./values.yml
+ 1955  kgaa
+ 1956  k describe service/api
+ 1957  k describe pod/api-859794fcf5-62srh
+ 1958  k describe pod/api-859794fcf5-d4ml2
+ 1959  k describe pod/api-859794fcf5-h2bwh
+ 1960  k describe pod/api-859794fcf5-k4mxw
+ 1961  k describe pod/mongodb-deployment-7bd5c9d57b-z8tw6
+ 1962  curl -X POST "http://161.35.255.2:8082/Produto" -H  "accept: */*" -H  "Content-Type: application/json" -d "{\"nome\":\"string\",\"preco\":0,\"categoria\":\"string\"}"
+ 1963  curl -X GET "http://161.35.255.2:8082/Produto" -H  "accept: text/plain"
+ 1964  kgaa
+ 1965  k describe deployment.apps/api
+ 1966  kgaa
+ 1967  ll
+ 1968  cat api.yml
+ 1969  kgaa
+ 1970  k describe service/prometheus-server
+ 1971  k describe deployment.apps/prometheus-server
+ 1972  kgaa
+ 1973  curl -X GET "http://161.35.255.2:8082/Produto" -H  "accept: text/plain"
+ 1974  while true; do curl http://161.35.255.2:8082/Produto ;sleep 1; done; 
+ 1975  while true; do curl http://161.35.255.2:8082/Produto;sleep 1; done; 
+ 1976  while true; do curl -X GET "http://161.35.255.2:8082/Produto" -H  "accept: text/plain";sleep 1; done; 
+ 1977  while true; do curl -X GET "http://161.35.255.2:8082/Produto" -H  "accept: text/plain";sleep 5; done; 
+ 1978  curl -X POST "http://161.35.255.2:8082/Produto" -H  "accept: */*" -H  "Content-Type: application/json" -d "{\"nome\":\"string\",\"preco\":0,\"categoria\":\"string\"}"
+ 1979  ip a
+ 1980  ll
+ 1981  history|grep apply
+ 1982  history
+ 1983  ls -ltrhaR
+ 1984  cd
+ 1985  ll
+ 1986  cd .kube
+ 1987  ll
+ 1988  history
+ 1989  cd loki/fabricioveronez
+ 1990  ll
+ 1991  cat s.yml
+ 1992  vi config
+ 1993  cd .kube
+ 1994  vi config
+ 1995  kgaa
+ 1996  cd Documents/workspace/estudos/observability-in-deep/loki/fabricioveronez
+ 1997  cd
+ 1998  cd Documents/workspace/estudos/observability-in-deep/loki/fabricioveronez
+ 1999  ll
+ 2000  history
+ 2001  kgs kubernetes -o yaml > s.yml
+ 2002  vi s.yml
+ 2003  k apply -f s.yml
+ 2004  kgs
+ 2005  history
+ 2006  k apply -f mongo.yml
+ 2007  k apply -f api.yml
+ 2008  kgs
+ 2009  helm upgrade --install metrics-server metrics-server/metrics-server
+ 2010  helm upgrade --install prometheus prometheus-community/prometheus --values ./values.yml
+ 2011  kgs
+ 2012  kgs prometheus-alertmanager -o yaml pa.yml
+ 2013  ll
+ 2014  kgs prometheus-alertmanager -o yaml > pa.yml
+ 2015  vi pa.yml
+ 2016  k apply -f pa.yml
+ 2017  kgs
+ 2018  ll
+ 2019  cat deployment.yml
+ 2020  cd Documents/workspace/estudos/observability-in-deep/loki/
+ 2021  ll
+ 2022  cd k8s
+ 2023  ll
+ 2024  cat va
+ 2025  cat values.yaml
+ 2026  cd ..
+ 2027  ll
+ 2028  cat donato.yaml
+ 2029  ll
+ 2030  cd scripts
+ 2031  ll
+ 2032  cd ..
+ 2033  kgs
+ 2034  cd fabricioveronez
+ 2035  ll
+ 2036  cat api.yml
+ 2037  kgs
+ 2038  while true; do curl -X GET "http://161.35.255.2:8082/Produto" -H  "accept: text/plain";sleep 5; done; 
+ 2039  while true; do curl -X GET "http://137.184.243.115:8082/Produto" -H  "accept: text/plain";sleep 5; done; 
+ 2040  ll
+ 2041  cat api.yml
+ 2042  ll
+ 2043  helm repo list
+ 2044  kgs
+ 2045  helm show values prometheus-community/prometheus
+ 2046  helm show values prometheus-community/prometheus > p_values.yml
+ 2047  helm search repo prometheus
+ 2048  kgaA
+ 2049  kgaa
+ 2050  helm delete prometheus 
+ 2051  history|grep helm
+ 2052  helm delete metrics-server 
+ 2053  helm repo list
+ 2054  helm repo update
+ 2055  kubectl create namespace monitoring
+ 2056  helm install kube-prometheus prometheus-community/kube-prometheus-stack -n monitoring
+ 2057  kgs
+ 2058  kgaa
+ 2059  kubectl --namespace monitoring get pods -l "release=kube-prometheus"
+ 2060  cd Documents/workspace/estudos/observability-in-deep/loki/fabricioveronez
+ 2061  ll
+ 2062  cd Documents/workspace/estudos/observability-in-deep
+ 2063  ll
+ 2064  cd
+ 2065  cd Documents/workspace/estudos/observability-in-deep
+ 2066  ll
+ 2067  git clone git@github.com:jorgedonatodba/alertmanager-demo-prom-helm.git
+ 2068  cd Documents/workspace/estudos/observability-in-deep
+ 2069  cd alertmanager-demo-prom-helm
+ 2070  ll
+ 2071  kgs
+ 2072  kgs -n monitoring
+ 2073  kubectl port-forward svc/kube-prometheus-kube-prome-prometheus -n monitoring 9090
+ 2074  kgs kube-prometheus-kube-prome-prometheus -o yaml > ps.yml
+ 2075  kgs svc/kube-prometheus-kube-prome-prometheus -o yaml > ps.yml
+ 2076  k get svc/kube-prometheus-kube-prome-prometheus -o yaml > ps.yml
+ 2077  kgs kube-prometheus-kube-prome-prometheus -n monitoring -o yaml > ps.yml
+ 2078  vi ps.yml
+ 2079  k apply -f ps.yml
+ 2080  kgs
+ 2081  kgsa
+ 2082  kgs kube-prometheus-kube-prome-alertmanager -n monitoring -o yaml > as.yml
+ 2083  vi as.yml
+ 2084  k apply -f as.yml
+ 2085  kgsa
+ 2086  ll
+ 2087  k delete -f api.yml
+ 2088  k delete -f mongo.yml
+ 2089  vi mongo
+ 2090  vi mongo.yml
+ 2091  ll
+ 2092  ls -ltrha
+ 2093  k apply -f mongo.yml
+ 2094  k apply -f api.yml
+ 2095  kgs
+ 2096  kgp
+ 2097  kgs
+ 2098  ll
+ 2099  cat podmonitor.yml
+ 2100  kubectl apply -f podmonitor.yml
+ 2101  kgpa
+ 2102  kgaa
+ 2103  cat kube-prometheus.yaml
+ 2104  kubectl get all
+ 2105  kubectl get all -n monitoring
+ 2106  ll
+ 2107  helm show values prometheus-community/kube-prometheus-stack > kps_values.yml
+ 2108  minikube status
+ 2109  cp -p config.minikube config
+ 2110  minikube status
+ 2111  kgaa
+ 2112  cd Documents/workspace/estudos/observability-in-deep
+ 2113  cd
+ 2114  cd Documents/workspace/estudos/observability-in-deep
+ 2115  ll
+ 2116  cd loki/fabricioveronez
+ 2117  k delete -f api.yml
+ 2118  k delete -f mongo.yml
+ 2119  helm delete prometheus 
+ 2120  helm delete metrics-server 
+ 2121  kgaa
+ 2122  helm delete metrics-server 
+ 2123  helm repo list
+ 2124  history|grep metrics-server
+ 2125  history|grep metrics
+ 2126  kubectl delete -f https://github.com/kubernetes-sigs/metrics-server/releases/latest/download/components.yaml
+ 2127  kgaa
+ 2128  cd D
+ 2129  cd Documents/workspace/estudos/observability-in-deep/alertmanager-demo-prom-helm
+ 2130  ll
+ 2131  cd ../loki/fabricioveronez
+ 2132  ll
+ 2133  vi api.yml
+ 2134  vi mongo.yml
+ 2135  cd Documents/workspace/estudos/observability-in-deep/alertmanager-demo-prom-helm
+ 2136  ll
+ 2137  cat app.yml
+ 2138  k apply -f mongo.yml
+ 2139  vi mongo.yml
+ 2140  k apply -f mongo.yml
+ 2141  vi mongo.yml
+ 2142  k apply -f mongo.yml
+ 2143  vi mongo.yml
+ 2144  k apply -f mongo.yml
+ 2145  vi mongo.yml
+ 2146  k apply -f mongo.yml
+ 2147  vi mongo.yml
+ 2148  k apply -f mongo.yml
+ 2149  vi api.yml
+ 2150  k apply -f api.yml
+ 2151  kgaa
+ 2152  helm install kube-prometheus prometheus-community/kube-prometheus-stack
+ 2153  kill -9 491404
+ 2154  kgaa
+ 2155  kgpa
+ 2156  kgno
+ 2157  helm install kube-prometheus prometheus-community/kube-prometheus-stack
+ 2158  kgaa
+ 2159  kgj
+ 2160  kgaa
+ 2161  kubectl port-forward --help
+ 2162  kubectl port-forward svc/kube-prometheus-kube-prome-prometheus --address 0.0.0.0 9090
+ 2163  kubectl port-forward service/api --address 0.0.0.0 8082
+ 2164  kubectl port-forward service/kube-prometheus-kube-prome-alertmanager --address 0.0.0.0 9093
+ 2165  kgaa
+ 2166  k describe pod/alertmanager-kube-prometheus-kube-prome-alertmanager-0
+ 2167  kgaa
+ 2168  kubectl port-forward service/kube-prometheus-kube-prome-alertmanager --address 0.0.0.0 9093
+ 2169  kubectl port-forward svc/kube-prometheus-kube-prome-prometheus --address 0.0.0.0 9090
+ 2170  kgaa
+ 2171  k describe pod/prometheus-kube-prometheus-kube-prome-prometheus-0
+ 2172  kgaa
+ 2173  while true; do curl -X GET "http://192.168.15.101:8082/Produto" -H  "accept: text/plain";sleep 5; done; 
+ 2174  kubectl port-forward svc/kube-prometheus-kube-prome-prometheus --address 0.0.0.0 9090
+ 2175  kgaa
+ 2176  history|grep namespace
+ 2177  k get pods --help
+ 2178  kgaa
+ 2179  k describe service/kube-prometheus-kube-prome-operator
+ 2180  kubectl apply -f podmonitor.yml
+ 2181  kgaa
+ 2182  k get podmonitor all
+ 2183  k get podmonitor
+ 2184  k get podmonitor --wide
+ 2185  k get podmonitor --help
+ 2186  k get podmonitor -A
+ 2187  k describe podmonitor/my-podmonitor
+ 2188  ll
+ 2189  helm upgrade -f kube-prometheus.yaml kube-prometheus prometheus-community/kube-prometheus-stack
+ 2190  kgaa
+ 2191  kgpa
+ 2192  top
+ 2193  kgpa
+ 2194  kgaa
+ 2195  ll
+ 2196  grep ServiceMonitor *
+ 2197  kgs
+ 2198  k describe svc/api
+ 2199  ll
+ 2200  cat prometheus-rule.yml
+ 2201  ll
+ 2202  k apply -f servicemonitor.yml
+ 2203  kgaa
+ 2204  k get servicemonitor/api
+ 2205  k delete -f servicemonitor.yml
+ 2206  k delete -f podmonitor.yml
+ 2207  history|grep kube-
+ 2208  helm delete kube-prometheus
+ 2209  kgaa
+ 2210  k delete service/kube-prometheus-kube-prome-kubelet -n kube-system
+ 2211  kgaa
+ 2212  history|grep kube-
+ 2213  helm install kube-prometheus prometheus-community/kube-prometheus-stack
+ 2214  kgaa
+ 2215  kgj
+ 2216  history|grep p_va
+ 2217  ll
+ 2218  cd ../loki/fabricioveronez
+ 2219  rm -rf p_values.yml
+ 2220  kgaa
+ 2221  kgpa
+ 2222  kgaa
+ 2223  kubectl port-forward service/kube-prometheus-kube-prome-alertmanager --address 0.0.0.0 9093
+ 2224  kgaa
+ 2225  history|grep p_va
+ 2226  helm show values prometheus-community/prometheus > p_values.yml
+ 2227  kubectl port-forward svc/kube-prometheus-kube-prome-prometheus --address 0.0.0.0 9090
+ 2228  top
+ 2229  history|grep port-forward
+ 2230  kubectl port-forward svc/kube-prometheus-kube-prome-prometheus --address 0.0.0.0 9090
+ 2231  kubectl port-forward service/kube-prometheus-kube-prome-alertmanager --address 0.0.0.0 9093
+ 2232  kubectl port-forward service/api --address 0.0.0.0 8082
+ 2233  k resource all
+ 2234  k resources all
+ 2235  k get resources all
+ 2236  k get resource all
+ 2237  kubectl api-resources
+ 2238  cd Documents/workspace/estudos/observability-in-deep/alertmanager-demo-prom-helm
+ 2239  ll
+ 2240  cd ..
+ 2241  cd loki/fabricioveronez
+ 2242  ll
+ 2243  k apply -f scrapconfis.yml
+ 2244  kgaa
+ 2245  k get scrapeconfig/api
+ 2246  k describe scrapeconfig/api
+ 2247  k apply -f scrapconfis.yml
+ 2248  helm upgrade --help
+ 2249  history|grep helm
+ 2250  helm upgrade kube-prometheus prometheus-community/kube-prometheus-stack -f main-values.yml
+ 2251  kgaa
+ 2252  kgpa
+ 2253  helm --help
+ 2254  kgpa
+ 2255  kubectl port-forward svc/kube-prometheus-kube-prome-prometheus --address 0.0.0.0 9090
+ 2256  helm upgrade kube-prometheus prometheus-community/kube-prometheus-stack -f main-values.yml
+ 2257  history|grep p_va
+ 2258  kgpa
+ 2259  kubectl port-forward svc/kube-prometheus-kube-prome-prometheus --address 0.0.0.0 9090
+ 2260  kubectl port-forward service/api --address 0.0.0.0 8082
+ 2261  history|grep list
+ 2262  helm list
+ 2263  helm repo list
+ 2264  history|grep helm
+ 2265  helm search repo prometheus
+ 2266  helm install prometheus-mongodb-exporter prometheus-community/prometheus-mongodb-exporter
+ 2267  kubectl port-forward service/prometheus-mongodb-exporter 9216
+ 2268  kgps
+ 2269  kgpa
+ 2270  kubectl port-forward service/prometheus-mongodb-exporter 9216
+ 2271  kubectl port-forward service/prometheus-mongodb-exporter --address 0.0.0.0 9216
+ 2272  k apply -f scrapconfis.yml
+ 2273  k delete scrapeconfig/mongodb
+ 2274  k apply -f scrapconfis.yml
+ 2275  ll
+ 2276  k apply -f prometheus-example-app.yml
+ 2277  kgpa
+ 2278  k apply -f prometheus-example-app.yml
+ 2279  kgsa
+ 2280  kubectl port-forward service/kube-prometheus-kube-prome-alertmanager --address 0.0.0.0 9093
+ 2281  kubectl port-forward service/example-app --address 0.0.0.0 8083
+ 2282  kgsa
+ 2283  k apply -f prometheus-example-app.yml
+ 2284  kubectl port-forward service/example-app --address 0.0.0.0 8083
+ 2285  k apply -f scrapconfis.yml
+ 2286  k get scrapeconfig all
+ 2287  k get scrapeconfig -A
+ 2288  k delete scrapeconfig/example-app
+ 2289  k delete service/example-app
+ 2290  k delete deployment/example-app
+ 2291  kgaa
+ 2292  ll
+ 2293  cd Documents/workspace/estudos/observability-in-deep/loki/k8s
+ 2294  ll
+ 2295  k apply -f values.yml
+ 2296  ll
+ 2297  cp -p values.yaml deployment.yml
+ 2298  k apply -f deployment.yml
+ 2299  kgaa
+ 2300  kubectl port-forward service/shenlong-service --address 0.0.0.0 8083
+ 2301  kgaa
+ 2302  kubectl port-forward svc/shenlong-service --address 0.0.0.0 8083
+ 2303  k apply -f scrapconfis.yml
+ 2304  kubectl get crds
+ 2305  k apply -f scrapconfis.yml
+ 2306  ll
+ 2307  k apply -f prometheus-rules.yml
+ 2308  k api-resources
+ 2309  k apply -f prometheus-rules.yml
+ 2310  kubectl get crds
+ 2311  k apply -f https://github.com/prometheus-operator/prometheus-operator/blob/main/example/prometheus-operator-crd-full/monitoring.coreos.com_prometheusrules.yaml
+ 2312  k apply -f prometheus-rules.yml
+ 2313  k apply -f https://github.com/prometheus-community/helm-charts/charts/kube-prometheus-stack/charts/crds/crds/crd-prometheusrules.yaml
+ 2314  ll
+ 2315  k apply -f add-pr-cdr.yml
+ 2316  k apply -f prometheus-rules.yml
+ 2317  k get prometheusrules
+ 2318  k get prometheusrules/kube-prometheus-kube-prome-prometheus -o yaml
+ 2319  k apply -f prometheus-rules.yml
+ 2320  helm search repo prometheus
+ 2321  helm install prometheus-operator-crd prometheus-community/prometheus-operator-crds
+ 2322  helm upgrade prometheus-operator-crd prometheus-community/prometheus-operator-crds
+ 2323  kgaa
+ 2324  history|grep install
+ 2325  helm install prometheus-operator-crd prometheus-community/prometheus-operator-crds
+ 2326  kill -9 708690
+ 2327  helm install prometheus-operator-crds prometheus-community/prometheus-operator-crds
+ 2328  history|grep add
+ 2329  k delete -f add-pr-cdr.yml
+ 2330  helm install prometheus-operator-crds prometheus-community/prometheus-operator-crds
+ 2331  k get cdrs
+ 2332  k get cdr
+ 2333  history|grep cdr
+ 2334  history|grep crd
+ 2335  kubectl get crds
+ 2336  k apply -f add-pr-cdr.yml
+ 2337  kubectl get crds
+ 2338  k apply -f prometheus-rules.yml
+ 2339  k apply -f prometheus-rules.yml --validate=false
+ 2340  k apply -f prometheus-rules.yml
+ 2341  kgaa
+ 2342  history|grep main
+ 2343  helm upgrade kube-prometheus prometheus-community/kube-prometheus-stack -f main-values.yml
+ 2344  kgpa
+ 2345  kgaa
+ 2346  k apply -f prometheus-rules.yml
+ 2347  k describe prometheusrule/app-rules
+ 2348  kubectl port-forward svc/kube-prometheus-kube-prome-prometheus --address 0.0.0.0 9090
+ 2349  k get prometheusrule -A
+ 2350  k get prometheusrule --help
+ 2351  kubectl options
+ 2352  history|grep wide
+ 2353  k get prometheusrule -o wide
+ 2354  k describe prometheusrule/app-rules
+ 2355  k apply -f prometheus-rules.yml
+ 2356  history|grep p_va
+ 2357  helm show values prometheus-community/kube-prometheus-stack > actual_values_202512181730.yml
+ 2358  history
+ 2359  ll
+ 2360  helm upgrade kube-prometheus prometheus-community/kube-prometheus-stack -f actual_values_202512181730.yml
+ 2361  kgaa
+ 2362  minikube --help
+ 2363  minikube delete
+ 2364  minikube start
+ 2365  minikube status
+ 2366  kgaa
+ 2367  ll
+ 2368  k apply -f mongo.yml
+ 2369  k delete -f mongo.yml
+ 2370  k create ns apps
+ 2371  k delete -f mongo.yml -n apps
+ 2372  k apply -f mongo.yml -n apps
+ 2373  k apply -f api.yml -n apps
+ 2374  kgaa
+ 2375  ll
+ 2376  cat deployment.yml
+ 2377  k apply -f deployment.yml  -n apps
+ 2378  kgaa
+ 2379  k create ns monitoring
+ 2380  kgaa
+ 2381  k describe pod/mongodb-deployment-6c5d6f7d77-mz5kn
+ 2382  kgaa
+ 2383  k describe pod/mongodb-deployment-6c5d6f7d77-mz5kn
+ 2384  kgaa
+ 2385  k describe pod/mongodb-deployment-6c5d6f7d77-mz5kn
+ 2386  kgaa
+ 2387  history|grep stack
+ 2388  helm upgrade -i kube-prometheus prometheus-community/kube-prometheus-stack --namespace=monioring --values ./actual_values_202512181730.yml
+ 2389  ll
+ 2390  helm upgrade -i kube-prometheus prometheus-community/kube-prometheus-stack --namespace=monioring --values ./actual_values_202512181730.yml
+ 2391  helm upgrade -i kube-prometheus prometheus-community/kube-prometheus-stack --namespace=monitoring --values ./actual_values_202512181730.yml
+ 2392  kgaa
+ 2393  helm search repo prometheus
+ 2394  kgaa
+ 2395  k get crds
+ 2396  kgaa
+ 2397  k describe pod/kube-prometheus-kube-prome-operator-5db45fcc5-9pclr -n monitoring
+ 2398  kgaa
+ 2399  k describe pod/prometheus-kube-prometheus-kube-prome-prometheus-0 -n monitoring
+ 2400  kgaa
+ 2401  k describe pod/alertmanager-kube-prometheus-kube-prome-alertmanager-0 -n monitoring
+ 2402  kgaa
+ 2403  kubectl port-forward service/kube-prometheus-kube-prome-prometheus -n monitoring --address 0.0.0.0 9090
+ 2404  kgaa
+ 2405  kubectl pod/prometheus-kube-prometheus-kube-prome-prometheus-0 -n monitoring --address 0.0.0.0 9090
+ 2406  k describe pod/prometheus-kube-prometheus-kube-prome-prometheus-0 -n monitoring
+ 2407  kgaa
+ 2408  kubectl port-forward service/kube-prometheus-kube-prome-prometheus -n monitoring --address 0.0.0.0 9090
+ 2409  ll
+ 2410  k apply -f scrapconfis.yml  -n monitoring
+ 2411  kubectl port-forward service/api --address 0.0.0.0 8082 -n apps
+ 2412  kubectl port-forward service/kube-prometheus-kube-prome-alertmanager --address 0.0.0.0 9093 -n monitoring
+ 2413  k apply -f scrapconfis.yml  -n monitoring
+ 2414  kubectl port-forward svc/shenlong-service --address 0.0.0.0 8083 -n apps
+ 2415  history|grep mongodb
+ 2416  helm install prometheus-mongodb-exporter prometheus-community/prometheus-mongodb-exporter -n monitoring
+ 2417  kubectl port-forward service/prometheus-mongodb-exporter --address 0.0.0.0 9216 -n monitoring
+ 2418  kgaa
+ 2419  kubectl port-forward service/prometheus-mongodb-exporter --address 0.0.0.0 9216 -n monitoring
+ 2420  cd Documents/workspace/estudos/observability-in-deep
+ 2421  ll
+ 2422  git clone git@github.com:jorgedonatodba/oracle-db-appdev-monitoring.git
+ 2423  cd oracle-db-appdev-monitoring
+ 2424  ll
+ 2425  man chown
+ 2426  top
+ 2427  helm repo add istio https://istio-release.storage.googleapis.com/charts
+ 2428  helm repo update
+ 2429  helm search repo istio
+ 2430  top
+ 2431  minikube status
+ 2432  minikube --help
+ 2433  minikube start
+ 2434  kgaa
+ 2435  kubectl port-forward service/api --address 0.0.0.0 8082 -n apps
+ 2436  kubectl port-forward svc/shenlong-service --address 0.0.0.0 8083 -n apps
+ 2437  kubectl port-forward service/kube-prometheus-kube-prome-prometheus -n monitoring --address 0.0.0.0 9090
+ 2438  kubectl port-forward service/kube-prometheus-kube-prome-alertmanager --address 0.0.0.0 9093 -n monitoring
+ 2439  kubectl port-forward service/prometheus-mongodb-exporter --address 0.0.0.0 9216 -n monitoring
+ 2440  k get servicemonitor/api
+ 2441  k get servicemonitor all -A
+ 2442  k get servicemonitor all 
+ 2443  k get servicemonitor
+ 2444  k get servicemonitor -A
+ 2445  k get servicemonitor/kube-prometheus-kube-prome-apiserver -n monitoring -o yaml
+ 2446  cd Documents/workspace/estudos/observability-in-deep/loki/fabricioveronez
+ 2447  ll
+ 2448  k apply -f servicemonitoapi.yml -n monitoring
+ 2449  k apply -f servicemonitoapi.yml -n apps
+ 2450  k get servicemonitor/api-app -n apps
+ 2451  k describe servicemonitor/api-app -n apps
+ 2452  k get prometheusrule -o wide
+ 2453  k get prometheusrule -o wide -A
+ 2454  k get prometheusrule/kube-prometheus-kube-prome-kubernetes-apps -o wide -A
+ 2455  k get prometheusrule/kube-prometheus-kube-prome-kubernetes-apps -o wide -n monitoring
+ 2456  k get prometheusrule/kube-prometheus-kube-prome-kubernetes-apps -o yaml
+ 2457  k get prometheusrule/kube-prometheus-kube-prome-kubernetes-apps -o yaml -n monitoring
+ 2458  k get prometheusrule/kube-prometheus-kube-prome-kubernetes-apps -o yaml -n monitoring > promeruleexample.yml
+ 2459  k get servicemonitor/kube-prometheus-kube-prome-apiserver -n monitoring -o yaml > servicemonitorexample.yml
+ 2460  k apply -f servicemonitoapi.yml -n apps
+ 2461  kgaa
+ 2462  k describe pod/mongodb-deployment-6c5d6f7d77-gbwvg -n apps
+ 2463  kgaa
+ 2464  k apply -f servicemonitorapi.yml -n apps
+ 2465  k describe servicemonitor/api-app -n apps
+ 2466  minikube delete
+ 2467  minikube start
+ 2468  kgaa
+ 2469  k create ns monitoring
+ 2470  k create ns apps
+ 2471  k apply -f mongo.yml -n apps
+ 2472  kgaa
+ 2473  k apply -f api.yml -n apps
+ 2474  kgaa
+ 2475  cd Documents/workspace/estudos/observability-in-deep/loki/fabricioveronez
+ 2476  cd
+ 2477  cd Documents/workspace/estudos/observability-in-deep/loki/fabricioveronez
+ 2478  kgaa
+ 2479  alias
+ 2480  kccc
+ 2481  ksd api --replicas 10
+ 2482  ksd api --replicas 10 -n apps
+ 2483  kgpa
+ 2484  kdp api-7b7695584d-zt4fl
+ 2485  kdp api-7b7695584d-zt4fl -n apps
+ 2486  kgpa
+ 2487  alias
+ 2488  kgaa
+ 2489  kubectl port-forward service/api --address 0.0.0.0 8082 -n apps
+ 2490  history|grep 20251218
+ 2491  k get ns
+ 2492  helm upgrade -i kube-prometheus prometheus-community/kube-prometheus-stack --namespace=monitoring --values ./actual_values_202512181730.yml
+ 2493  kgaa
+ 2494  k apply -f deploy.yml
+ 2495  kgaa
+ 2496  minikube start
+ 2497  kgaa
+ 2498  cd Documents/workspace/estudos/observability-in-deep/loki/fabricioveronez/devopspro
+ 2499  ll
+ 2500  kgaa
+ 2501  k describe pod/api-7b7695584d-4mxck -n apps
+ 2502  kgaa
+ 2503  k describe pod/mongodb-deployment-86df4c97bc-ggs97 -n apps
+ 2504  k stop pod/mongodb-deployment-86df4c97bc-ggs97 -n apps
+ 2505  k delete pod/mongodb-deployment-86df4c97bc-ggs97 -n apps
+ 2506  kgpa
+ 2507  k apply -f deploy.yml
+ 2508  kgpa
+ 2509  k describe pod/myapp-5c4677c7b7-92vxp -n apps
+ 2510  k describe pod/myapp-5c4677c7b7-92vxp
+ 2511  k apply -f deploy.yml
+ 2512  kgpa
+ 2513  k apply -f deploy.yml
+ 2514  kgpa
+ 2515  k delete pod/myapp-5c4677c7b7-92vxp
+ 2516  kgpa
+ 2517  k delete pod/myapp-797f8fd89d-jgqkp
+ 2518  kgpa
+ 2519  k delete -f deploy.yml
+ 2520  kgpa
+ 2521  k apply -f deploy.yml
+ 2522  kgpa
+ 2523  k describe pod/myapp-6bfbfcdc94-22pv8
+ 2524  k apply -f deploy.yml
+ 2525  kgpa
+ 2526  k delete -f deploy.yml
+ 2527  kgpa
+ 2528  k apply -f deploy.yml
+ 2529  kgpa
+ 2530  k describe pod/myapp-86c5956f5-mqw7f
+ 2531  k delete -f deploy.yml
+ 2532  kgpa
+ 2533  cd /home/donato/Documents/workspace/estudos/observability-in-deep/alertmanager-demo-prom-helm
+ 2534  ll
+ 2535  k apply -f app.yml
+ 2536  kgpa
+ 2537  ping www.google.com
+ 2538  minikube stop
+ 2539  minikube start
+ 2540  minikube delete
+ 2541  minikube start
+ 2542  top
+ 2543  kgpa
+ 2544  kgpall
+ 2545  ll
+ 2546  k apply -f deploy.yml
+ 2547  kgpa
+ 2548  k describe pod/myapp-5c4677c7b7-hwv6f
+ 2549  kgpa
+ 2550  k apply -f service.yml
+ 2551  kgsa
+ 2552  kgaa
+ 2553  k port-forward service/myapp --address 0.0.0.0 8080:80
+ 2554  k port-forward service/myapp --address 0.0.0.0 8080:8080
+ 2555  k port-forward service/myapp --address 0.0.0.0 8080
+ 2556  k port-forward service/myapp --address 0.0.0.0 8080:80
+ 2557  k port-forward service/myapp --address 0.0.0.0 31214
+ 2558  top
+ 2559  cd Documents/workspace/estudos/observability-in-deep/loki/fabricioveronez/devopspro
+ 2560  ll
+ 2561  kgaa
+ 2562  minikube status
+ 2563  minikube --help
+ 2564  minikube ip
+ 2565  ip a
+ 2566  docker ps -a
+ 2567  docker inspect minikube
+ 2568  curl http://192.168.49.2:31214/temperatura/fahrenheitparacelsius/100
+ 2569  kgaa
+ 2570  k scale deployment myapp --replicas 30
+ 2571  kgaa
+ 2572  curl http://192.168.49.2:31214/temperatura/fahrenheitparacelsius/100
+ 2573  curl http://myapp/temperatura/fahrenheitparacelsius/100
+ 2574  curl http://myapp:80/temperatura/fahrenheitparacelsius/100
+ 2575  docker inspect minikube
+ 2576  k run -i --tty -image kubedevio/ubuntu-curl ping-test --restart=Never --rm -- /bin/bash
+ 2577  k run -i --tty --image kubedevio/ubuntu-curl ping-test --restart=Never --rm -- /bin/bash
+ 2578  docker ps -a
+ 2579  kgpa
+ 2580  kgaa
+ 2581  k describe pod/ping-test
+ 2582  top
+ 2583  minikube stop
+ 2584  minikube start
+ 2585  minikube delete
+ 2586  minikube start
+ 2587  kgaa
+ 2588  cd Documents/workspace/estudos/observability-in-deep/loki/fabricioveronez/devopspro
+ 2589  ll
+ 2590  kcn blue
+ 2591  kcn minikube
+ 2592  kgaa
+ 2593  k create ns blue
+ 2594  k create ns green
+ 2595  alias|grep kaf
+ 2596  kaf deployblue.yml -n blue
+ 2597  kaf deploygreen.yml -n green
+ 2598  kgpa
+ 2599  kgaa
+ 2600  alias|grep kge
+ 2601  alias|grep endpoint
+ 2602  k get endpoints
+ 2603  k get endpoints -A
+ 2604  top
+ 2605  cd Documents/workspace/estudos/observability-in-deep/loki/fabricioveronez/devopspro
+ 2606  ll
+ 2607  kgaa -o kyaml
+ 2608  kubectl get -o kyaml
+ 2609  kubectl get pods -o kyaml
+ 2610  vi test.yml
+ 2611  k apply -f test.yml
+ 2612  kgaa
+ 2613  k apply -f test.yml
+ 2614  minikube status
+ 2615  minikube --help
+ 2616  minikube config
+ 2617  minikube config get
+ 2618  minikube config view
+ 2619  minikube config view kubernetes-version
+ 2620  minikube config get kubernetes-version
+ 2621  minikube config get driver
+ 2622  ll
+ 2623  ls 
+ 2624  ls -ltrha
+ 2625  cd .minikube
+ 2626  ll
+ 2627  cd config
+ 2628  ll
+ 2629  cat config.json
+ 2630  cd
+ 2631  cd observability-in-deep/loki/fabricioveronez/prometheus-example-app.yml
+ 2632  cd Documents/workspace/estudos/observability-in-deep/loki/fabricioveronez
+ 2633  ll
+ 2634  kaf prometheus-example-app.ymldeploygreen.yml
+ 2635  kaf prometheus-example-app.ym
+ 2636  kaf prometheus-example-app.yml
+ 2637  minikube status
+ 2638  minikube stop
+ 2639  minikube start
+ 2640  kaf prometheus-example-app.yml
+ 2641  kgaa
+ 2642  helm upgrade -i kube-prometheus prometheus-community/kube-prometheus-stack
+ 2643  kgaa
+ 2644  kgpa
+ 2645  cd ../..
+ 2646  ll
+ 2647  git clone git@github.com:jorgedonatodba/voting_app.git
+ 2648  cd voting_app
+ 2649  ll
+ 2650  cd k8s-specifications
+ 2651  cd ..
+ 2652  k create ns voting-app
+ 2653  kaf ./k8s-specifications/ -n voting-app
+ 2654  kgsa
+ 2655  kgpa
+ 2656  helm search repo prometheus
+ 2657  kgpa
+ 2658  kgsa
+ 2659  kgpa
+ 2660  alias|grep kdp
+ 2661  kdp vote-db-d4f98b56c-hc4fr
+ 2662  kdp vote-db-d4f98b56c-hc4fr -n voting-app
+ 2663  kgpa
+ 2664  cd ../..
+ 2665  cd observability-in-deep/loki/fabricioveronez/
+ 2666  kaf prometheus-example-app.yml
+ 2667  k delete prometheus-example-app.yml
+ 2668  kgpa
+ 2669  k delete prometheus-example-app.yml
+ 2670  k delete -f prometheus-example-app.yml
+ 2671  kaf prometheus-example-app.yml
+ 2672  kgpa
+ 2673  kga -n voting-app
+ 2674  kga -n default
+ 2675  k port-forward service/example-app --address 0.0.0.0 8083
+ 2676  kaf prometheus-example-app.yml
+ 2677  k delete -f prometheus-example-app.yml
+ 2678  kaf prometheus-example-app.yml
+ 2679  k port-forward service/example-app --address 0.0.0.0 8083 &
+ 2680  kga -n default
+ 2681  kga -n voting-app
+ 2682  kga -n default
+ 2683  k port-forward service/example-app --address 0.0.0.0 8083 &
+ 2684  kaf ./servicemonitor-example-app.yml
+ 2685  kga -n default
+ 2686  top
+ 2687  cd Documents/workspace/estudos/observability-in-deep/loki/fabricioveronez
+ 2688  ll
+ 2689  kaf kind-prometheus.yml
+ 2690  kgaa
+ 2691  k port-forward service/example-app --address 0.0.0.0 8083 &
+ 2692  kgaa
+ 2693  ll
+ 2694  cd Documents/workspace/estudos/observability-in-deep/loki/fabricioveronez
+ 2695  ll
+ 2696  cd ../..
+ 2697  cd vo
+ 2698  cd voting_app
+ 2699  ll
+ 2700  k delete -f  ./k8s-specifications/ -n voting_app
+ 2701  minikube delete
+ 2702  minikube start
+ 2703  ll
+ 2704  ls -ltrha
+ 2705  cd .minikube
+ 2706  ll
+ 2707  cd config
+ 2708  ll
+ 2709  cat config.json
+ 2710  cd ..
+ 2711  ll
+ 2712  cd machines
+ 2713  ll
+ 2714  cd minikube
+ 2715  ll
+ 2716  cat config.json
+ 2717  kaf ./k8s-specifications/ -n voting_app
+ 2718  k create ns voting-app
+ 2719  kaf ./k8s-specifications/ -n voting_app
+ 2720  k create ns voting-app
+ 2721  kaf ./k8s-specifications/ -n voting_app
+ 2722  k delete ns voting-app
+ 2723  k create ns voting-app
+ 2724  kaf ./k8s-specifications/ -n voting-app
+ 2725  kgpa
+ 2726  kgaa
+ 2727  k delete -f ./k8s-specifications/ -n voting-app
+ 2728  cd ..
+ 2729  cd loki/fabricioveronez
+ 2730  ll
+ 2731  cd 
+ 2732  cd Documents/workspace/estudos/observability-in-deep/loki/fabricioveronez
+ 2733  kaf prometheus-example-app.yml
+ 2734  kgpa
+ 2735  kgaa
+ 2736  helm search repo prometheus
+ 2737  kubectl create ns monitoring
+ 2738  history|grep values
+ 2739  helm show values prometheus-community/kube-prometheus-stack > actual_values_202512261645.yml
+ 2740  k get ns -A
+ 2741  helm upgrade --install -f actual_values_202512261645.yml kube-prometheus-stack prometheus-community/kube-prometheus-stack -n monitoring
+ 2742  kgaa
+ 2743  k port-forward service/example-app --address 0.0.0.0 8083 &
+ 2744  kgaa
+ 2745  k describe pod/prometheus-kube-prometheus-stack-prometheus-0 -n monitoring
+ 2746  kgaa
+ 2747  kubectl port-forward svc/prometheus-operated 9090:9090 -n monitoring &
+ 2748  kill -9 238836
+ 2749  kubectl port-forward svc/prometheus-operated --address 0.0.0.0 9090:9090 -n monitoring &
+ 2750  kubectl port-forward svc/kube-prometheus-stack-grafana --address 3000:3000 -n monitoring &
+ 2751  kgaa
+ 2752  kubectl port-forward svc/kube-prometheus-stack-grafana --address 80 -n monitoring &
+ 2753  kubectl port-forward svc/kube-prometheus-stack-grafana --address 80:80 -n monitoring &
+ 2754  kubectl port-forward service/kube-prometheus-stack-grafana --address 80:80 -n monitoring &
+ 2755  kubectl port-forward service/kube-prometheus-stack-grafana --address 0.0.0.0 80:80 -n monitoring &
+ 2756  kubectl port-forward service/kube-prometheus-stack-grafana --address 0.0.0.0 3000:3000 -n monitoring &
+ 2757  kubectl port-forward service/kube-prometheus-stack-grafana --address 0.0.0.0 80:3000 -n monitoring &
+ 2758  kubectl port-forward service/kube-prometheus-stack-grafana --address 0.0.0.0 -n monitoring &
+ 2759  kubectl port-forward service/kube-prometheus-stack-grafana --address 0.0.0.0 80 -n monitoring &
+ 2760  ll
+ 2761  kaf 
+ 2762  kaf prometheus-example-app.yml
+ 2763  kaf servicemonitor-example-app.yml
+ 2764  k delete -f servicemonitor-example-app.yml
+ 2765  kaf servicemonitor-example-app.yml
+ 2766  ll
+ 2767  kgpa
+ 2768  kgaa
+ 2769  k describe service/kube-prometheus-stack-prometheus-n monitoring
+ 2770  k describe service/kube-prometheus-stack-prometheus -n monitoring
+ 2771  kaf servicemonitor-example-app.yml
+ 2772  kgaa
+ 2773  k describe service/kube-prometheus-stack-grafana -n monitoring
+ 2774  k describe service/kube-prometheus-stack-prometheus -n monitoring
+ 2775  kgaa
+ 2776  k describe service/example-app
+ 2777  k describe pod/example-app-678c8c9865-4pxxg
+ 2778  ll
+ 2779  kaf prometheusrules-app.yml
+ 2780  while true; do curl http://192.168.15.101:8083/metrics;sleep 0.5; done; 
+ 2781  while true; do curl -X GET "http://192.168.15.101:8083/metrics" -H  "accept: text/plain";sleep 0.5; done; 
+ 2782  k create ns pedelogo
+ 2783  wd
+ 2784  pwd
+ 2785  cd /home/donato/Documents/workspace/estudos/observability-in-deep/Monitoring-app
+ 2786  ll
+ 2787  kaf mongo.yml
+ 2788  kgpa
+ 2789  k delete -f mongo.yml
+ 2790  kgpa
+ 2791  k describe pod/pedelogo-mongodb-app-86df4c97bc-kmtkb
+ 2792  k log pod/pedelogo-mongodb-app-86df4c97bc-kmtkb
+ 2793  k logs pod/pedelogo-mongodb-app-86df4c97bc-kmtkb
+ 2794  k log pod/pedelogo-mongodb-app-86df4c97bc-kmtkb
+ 2795  k describe pod/pedelogo-mongodb-app-86df4c97bc-kmtkb
+ 2796  kaf mongo.yml -n pedelogo
+ 2797  kgaa
+ 2798  ll
+ 2799  kaf api.yml -n pedelogo
+ 2800  ll
+ 2801  kaf servicemonitor-example-app.yml -n pedelogo
+ 2802  kaf prometheusrules-app.yml -n pedelogo
+ 2803  kgaa
+ 2804  kaf servicemonitor-example-app.yml -n pedelogo
+ 2805  k delete -f servicemonitor-example-app.yml -n pedelogo
+ 2806  kaf servicemonitor-example-app.yml -n pedelogo
+ 2807  k describe pod/alertmanager-kube-prometheus-stack-alertmanager-0 -n monitoring
+ 2808  ll
+ 2809  kaf alertmanagerconfig-app.yml -n pedelogo
+ 2810  k describe alertmanagerconfig pedelogo-app-config-alertmanager -n pedelogo
+ 2811  kgaa
+ 2812  k port-forward service/pedelogo-service --address 0.0.0.0 8082 -n pedelogo &
+ 2813  history|grep while
+ 2814  while true; do curl -X GET "http://161.35.255.2:8082/Produto" -H  "accept: text/plain";sleep 0.5; done;
+ 2815  while true; do curl -X GET "http://192.168.15.101:8082/Produto" -H  "accept: text/plain";sleep 0.5; done;
+ 2816  while true; do curl -X GET "http://192.168.15.101:8082/Produto" -H  "accept: text/plain";sleep 1; done;
+ 2817  while true; do curl -X GET "http://192.168.15.101:8082/Produto" -H  "accept: text/plain";sleep 1; done; &
+ 2818  while true; do curl -X GET "http://192.168.15.101:8082/Produto" -H  "accept: text/plain";sleep 1; done; 
+ 2819  while true; do curl -X GET "http://192.168.15.101:8082/Produto" -H  "accept: text/plain";sleep 1; done;
+ 2820  cd /home/donato/Documents/workspace/estudos/observability-in-deep/Monitoring-app
+ 2821  kaf prometheusrules-app.yml -n pedelogo
+ 2822  k get prometheusrule -o wide -A
+ 2823  alias|grep kg
+ 2824  kgcma
+ 2825  kgcma kube-root-ca.crt
+ 2826  kgcm kube-root-ca.crt
+ 2827  kdcm kube-root-ca.crt
+ 2828  cd Documents/workspace/estudos/observability-in-deep/loki/fabricioveronez
+ 2829  cd Documents/workspace/estudos/
+ 2830  cd
+ 2831  cd Documents/workspace/estudos/
+ 2832  ll
+ 2833  mkdir devopspro
+ 2834  cd dell
+ 2835  ll
+ 2836  cd devopspro
+ 2837  ll
+ 2838  git clone git@github.com:jorgedonatodba/kubedev.git
+ 2839  ll
+ 2840  cd kubedev
+ 2841  ll
+ 2842  tp
+ 2843  top
+ 2844  cd devopspro/kubedev
+ 2845  cd api-conversao-master/aula2-kubernetes-namespaces
+ 2846  ll
+ 2847  stat ./service-blue.yml
+ 2848  cd /home/donato/Documents/workspace/estudos/observability-in-deep/loki/fabricioveronez/devopspro/aula3-subindo-app
+ 2849  cd devopspro
+ 2850  ll
+ 2851  git clone git@github.com:lbsantana/kube-news-barbosadevops.git
+ 2852  top
+ 2853  minikube stop
+ 2854  top
+ 2855  sudo apt update
+ 2856  sudo apt install curl wget gnupg2 lsb-release -y
+ 2857  curl -fsSL https://www.virtualbox.org/download/oracle_vbox_2016.asc\|sudo gpg --dearmor -o /etc/apt/trusted.gpg.d/vbox.gpg
+ 2858  sudo apt search virtualbox
+ 2859  sudo apt install virtualbox
+ 2860  sudo usermod -aG vboxusers $USER
+ 2861  sudo apt search vagrant 
+ 2862  sudo apt install vagrant
+ 2863  top
+ 2864  sudo apt install virtualbox
+ 2865  cd
+ 2866  cd Downloads
+ 2867  ll
+ 2868  sudo dpkg -i virtualbox-*.deb
+ 2869  sudo apt-get install openjdk-17-jdk -y
+ 2870  sudo apt-get install maven -y
+ 2871  sudo apt search awscli
+ 2872  terraform -h
+ 2873  history|grep apply
+ 2874  history
+ 2875  cd ~/Documents/workspace/estudos/terraform
+ 2876  ll
+ 2877  cd HubAndSpoke
+ 2878  ll
+ 2879  cat compute.tf
+ 2880  cd ..
+ 2881  git clone git@github.com:CarlosDaniel3/aws_ec2_instance.git
+ 2882  sudo apt search infracost
+ 2883  # Downloads the CLI based on your OS/arch and puts it in /usr/local/bin\ncurl -fsSL https://raw.githubusercontent.com/infracost/infracost/master/scripts/install.sh | sh
+ 2884  infracost
+ 2885  cd aws_ec2_instance
+ 2886  ll
+ 2887  infracost register
+ 2888  export INFRACOST_API_KEY=ico-7cV1MKmhD3BEpMNn9frTpvzZ8dhu5gXX
+ 2889  infracost breakdown --path .
+ 2890  cd ..
+ 2891  git clone git@github.com:littlejo/terraform-eks-cilium.git
+ 2892  infracost breakdown --path .
+ 2893  cd terraform-eks-cilium
+ 2894  infracost breakdown --path .
+ 2895  history
+ 2896  infracost breakdown --path .
+ 2897  terraform -h
+ 2898  history|grep aws
+ 2899  cd
+ 2900  cd .ssh
+ 2901  ll
+ 2902  cat id_ed25519.pub
+ 2903  cd ~/Documents/workspace/estudos/devopspro
+ 2904  ll
+ 2905  mkdir terraform
+ 2906  cd terraform
+ 2907  mkdir handson01
+ 2908  cd handson01
+ 2909  cd /home/donato/Documents/workspace/estudos/devopspro/terraform/handson01
+ 2910  terraform init
+ 2911  terraform fmt
+ 2912  terraform validate
+ 2913  terraform plan
+ 2914  terraform apply
+ 2915  ll
+ 2916  terraform apply
+ 2917  cd .ssh
+ 2918  ll
+ 2919  ssh root@143.198.112.212 -i ./id_ed25519
+ 2920  terraform apply
+ 2921  ssh root@143.198.112.212 -i ./id_ed25519
+ 2922  terraform apply
+ 2923  ssh root@143.198.112.212 -i ./id_ed25519
+ 2924  terraform apply
+ 2925  ssh root@143.198.112.212 -i ./id_ed25519
+ 2926  terraform fmt
+ 2927  terraform validate
+ 2928  terraform apply
+ 2929  ssh root@143.198.112.212 -i ./id_ed25519
+ 2930  terraform fmt
+ 2931  terraform apply
+ 2932  terraform fmt
+ 2933  terraform apply
+ 2934  terraform fmt
+ 2935  terraform apply
+ 2936  terraform output
+ 2937  terraform destroy
+ 2938  terraform fmt
+ 2939  cd ..
+ 2940  cd ./variables/
+ 2941  terraform init
+ 2942  terraform apply
+ 2943  cd ../variables
+ 2944  terraform apply
+ 2945  terraform fmt
+ 2946  terraform apply
+ 2947  terraform fmt
+ 2948  alias|grep log
+ 2949  glola
+ 2950  cd Documents/workspace/estudos/
+ 2951  ll
+ 2952  cd devopspro
+ 2953  ll
+ 2954  cd terraform
+ 2955  glola
+ 2956  ll
+ 2957  cd handson02
+ 2958  ll
+ 2959  cd devopspro/te
+ 2960  cd devopspro/terraform/handson02
+ 2961  terraform fmt
+ 2962  terraform init
+ 2963  terraform apply
+ 2964  terraform fmt
+ 2965  terraform apply
+ 2966  terraform fmt
+ 2967  terraform validate
+ 2968  terraform apply
+ 2969  terraform fmt
+ 2970  ll
+ 2971  terraform apply
+ 2972  terraform destroy
+ 2973  cd ../handson02-Provisioners/
+ 2974  terraform init
+ 2975  cd ../handson02-Provisioners
+ 2976  terraform apply
+ 2977  terraform fmt
+ 2978  terraform apply
+ 2979  terraform destroy
+ 2980  terraform apply
+ 2981  terraform destroy
+ 2982  terraform apply
+ 2983  ll ~/.ssh/
+ 2984  terraform apply
+ 2985  sudo snap install -h
+ 2986  terraform apply
+ 2987  ssh root@161.35.51.138 -i ./id_ed25519
+ 2988  cd ~/.ssh
+ 2989  ssh root@161.35.51.138 -i ./id_ed25519
+ 2990  ssh root@161.35.51.138 -i ~/.ssh/id_ed25519
+ 2991  terraform apply
+ 2992  cd /home/donato/Documents/workspace/estudos/devopspro/terraform/handson02-Functions
+ 2993  terraform -v
+ 2994  cd /home/donato/Documents/workspace/estudos/devopspro/terraform/Functions
+ 2995  terraform apply
+ 2996  terraform init
+ 2997  terraform apply
+ 2998  terraform fmt
+ 2999  terraform apply
+ 3000  cd ../Expressions
+ 3001  terraform apply
+ 3002  cd /home/donato/Documents/workspace/estudos/devopspro/terraform/Validations
+ 3003  terraform init
+ 3004  terraform apply
+ 3005  cd /home/donato/Documents/workspace/estudos/devopspro/terraform/handson03
+ 3006  ll
+ 3008  terraform init
+ 3009  terraform validate
+ 3010  terraform plan
+ 3011  terraform apply
+ 3012  terraform destroy
+ 3013  cat 
+ 3014  cat id_ed25519.pub
+ 3015  terraform init
+ 3016  terraform apply
+ 3017  cd /home/donato/Documents/workspace/estudos/devopspro/terraform/tf-modulos
+ 3018  terraform init
+ 3019  terraform providers
+ 3020  terraform init
+ 3021  cd ~
+ 3022  ll
+ 3023  ls -ltrha
+ 3024  mv .terraform.d .terraform.d.bkp
+ 3025  cd /home/donato/Documents/workspace/estudos/devopspro/terraform/tf-modulos
+ 3026  terraform init
+ 3027  mv ~/.terraform.d ~/.terraform.d.bkp.A
+ 3028  terraform init
+ 3029  mv ~/.terraform.d ~/.terraform.d.bkp.B
+ 3030  terraform init
+ 3031  terraform providers
+ 3032  terraform plan
+ 3033  ll
+ 3034  ls -ltrha
+ 3035  rm -rf .terraform/
+ 3036  terraform init
+ 3037  terraform init -plugin-dir=./providers
+ 3038  terraform init
+ 3039  rm -rf .terraform/
+ 3040  mv ~/.terraform.d ~/.terraform.d.bkp.C
+ 3041  terraform init
+ 3042  cd .terraform.d
+ 3043  ll
+ 3044  ls -ltrhaR
+ 3045  terraform init
+ 3046  ls -ltrhaR
+ 3047  terraform init
+ 3048  cd /home/donato/Documents/workspace/estudos/devopspro/terraform/variables
+ 3049  terraform providers
+ 3050  terraform init
+ 3051  ls -ltrhaR
+ 3052  rm -rf .terraform.lock.hcl
+ 3053  terraform init
+ 3054  cd /home/donato/Documents/workspace/estudos/devopspro/terraform/tf-modulos
+ 3055  terraform init
+ 3056  terraform apply
+ 3057  terraform destroy
+ 3058  terraform init
+ 3059  terraform apply
+ 3060  terraform destroy
+ 3061  terraform init
+ 3062  terraform apply
+ 3063  ll
+ 3064  cat teste-arquivo-arquivo.txt
+ 3065  cat teste-arquivo-outro_arquivo.txt
+ 3066  terraform destroy
+ 3067  terraform apply
+ 3068  terraform destroy
+ 3069  terraform apply
+ 3070  terraform destroy
+ 3071  terraform apply
+ 3072  terraform init
+ 3073  terraform apply
+ 3074  terraform destroy
+ 3075  terraform apply
+ 3076  terraform destroy
+ 3077  terraform apply
+ 3078  terraform init
+ 3079  terraform apply
+ 3080  terraform destroy
+ 3081  terraform apply
+ 3082  terraform destroy
+ 3083  cd /tmp
+ 3084  ll
+ 3085  mv ./hands-on-04.zip /home/donato/Documents/workspace/estudos/devopspro/terraform
+ 3086  cd /home/donato/Documents/workspace/estudos/devopspro/terraform
+ 3087  ll
+ 3088  mkdir handson04
+ 3089  mv ./hands-on-04.zip ./handson04
+ 3090  cd /home/donato/Documents/workspace/estudos/devopspro/terraform/handson04
+ 3091  ll
+ 3092  unzip hands-on-04.zip
+ 3093  ll
+ 3094  cd 
+ 3095  cd .ssh
+ 3096  ll
+ 3097  ip a
+ 3098  cd /home/donato/Documents/workspace/estudos/devopspro/terraform/handson04
+ 3099  ll
+ 3100  ls -ltrhaR
+ 3101  terraform init
+ 3102  history|grep toke
+ 3104  terraform init
+ 3105  terraform plan
+ 3106  terraform apply
+ 3107  terraform output database_password
+ 3108  terraform destroy
+ 3109  terraform plan
+ 3110  terraform destroy
+ 3111  cd /home/donato/Documents/workspace/estudos/devopspro/terraform/handson04-module
+ 3112  ls -ltrhaR
+ 3113  ls -ltrha
+ 3114  rm -rf .terraform.lock.hcl .terraform
+ 3115  terraform plan
+ 3116  terraform init
+ 3117  terraform plan
+ 3118  terraform init
+ 3119  rm -rf .terraform.lock.hcl .terraform
+ 3120  terraform init
+ 3121  terraform plan
+ 3122  rm -rf .terraform.lock.hcl .terraform
+ 3123  terraform init
+ 3127  rm -rf .terraform.lock.hcl .terraform
+ 3128  terraform init
+ 3129  terraform plan
+ 3130  terraform apply
+ 3131  ssh root@68.183.143.50 -i ~/.ssh/id_ed25519
+ 3132  ssh root@161.35.121.5 -i ~/.ssh/id_ed25519
+ 3133  ssh root@167.99.15.65 -i ~/.ssh/id_ed25519
+ 3134  ssh root@161.35.121.5 -i ~/.ssh/id_ed25519
+ 3135  ssh root@167.99.15.65 -i ~/.ssh/id_ed25519
+ 3136  terraform destroy
+ 3137  ss -plant4
+ 3138  terraform destroy
+ 3139  cd /home/donato/Documents/workspace/estudos/devopspro/terraform/handson04-module
+ 3140  ll
+ 3141  cd /home/donato/Documents/workspace/estudos/devopspro/terraform
+ 3142  ll
+ 3143  git add .
+ 3144  git add init
+ 3145  git init
+ 3146  git add .
+ 3147  git commit -m "Initial Commit"
+ 3148  git remote add origin git@github.com:jorgedonatodba/devopspro-modulo-terraform.git
+ 3149  git branch -M main
+ 3150  git push -u origin main
+ 3151  git pull
+ 3152  git branch
+ 3153  git pull origin/main main
+ 3154  git pull origin git@github.com:jorgedonatodba/devopspro-modulo-terraform.git main
+ 3155  git pull origin jorgedonatodba/devopspro-modulo-terraform.git main
+ 3156  git pull git@github.com:jorgedonatodba/devopspro-modulo-terraform.git main
+ 3157  git pull git@github.com:jorgedonatodba/devopspro-modulo-terraform.git main --no-rebase
+ 3158  ll
+ 3159  ls -ltrha
+ 3160  rm -rf .git
+ 3161  git init
+ 3162  git add .
+ 3163  git commit -m "Initial Commit"
+ 3164  git remote add origin git@github.com:jorgedonatodba/devopspro-modulo-terraform.git
+ 3165  git branch -M main
+ 3166  git push -u origin main
+ 3167  vi .gitignore
+ 3168  git push -u origin main
+ 3169  rm -rf handson04/terraform.tfstate.*
+ 3170  rm -rf .git
+ 3171  ls -ltrha
+ 3172  git init
+ 3173  git add .
+ 3174  git commit -m "Initial Commit"
+ 3175  git remote add origin git@github.com:jorgedonatodba/devopspro-modulo-terraform.git
+ 3176  git branch -M main
+ 3177  git push -u origin main
+ 3178  cd /home/donato/Documents/workspace/estudos/devopspro/terraform/Terraform-state
+ 3179  terraform init
+ 3180  terraform plan
+ 3181  terraform apply
+ 3182  terraform state list
+ 3183  terraform show
+ 3184  terraform state show  local_file.arquivo[3]
+ 3185  terraform state show 
+ 3186  terraform state show local_file.arquivo
+ 3187  terraform show
+ 3188  terraform state show local_file.arquivo[0
+ 3189  terraform state show local_file.arquivo[0]
+ 3190  terraform state show random_pet.pets[1]
+ 3191  terraform state show random_pet.pets[0]
+ 3192  terraform state list
+ 3193  terraform state show random_pet.pets[2]\n
+ 3194  terraform state show "random_pet.pets[2]"\n
+ 3195  terraform state show "random_pet.pets[1]"\n
+ 3196  terraform state show "local_file.arquivo[2]"\n
+ 3197  terraform show\n
+ 3198  sudo snap search graphviz
+ 3199  sudo apt search graphviz
+ 3200  sudo apt install graphviz
+ 3201  terraform graph | dot -Tsvg > imagem.svg\n
+ 3202  terraform state list
+ 3203  terraform apply
+ 3204  terraform taint random_pet.pets[3]
+ 3205  terraform taint "random_pet.pets[3]"
+ 3206  terraform apply
+ 3207  terraform state list
+ 3208  ls -ltrha
+ 3209  terraform taint "random_pet.pets[3]"
+ 3210  terraform apply
+ 3211  terraform untaint "random_pet.pets[3]"
+ 3212  terraform apply
+ 3213  terraform apply --replace="random_pet.pets[0]" --replace="random_pet.pets[1]" --replace="random_pet.pets[2]" 
+ 3214  history|grep terraform > ../terraform_commands.txt
+ 3215  cat ../terraform_commands.txt
+ 3216  cd ..
+ 3217  ll
+ 3218  git add .
+ 3219  git push
+ 3220  git commit -m "Added Terraform taint untaint and terraform apply --replace"
+ 3221  vi .gitignore
+ 3222  git commit -m "Added Terraform taint untaint and terraform apply --replace"
+ 3223  git add .
+ 3224  git commit -m "gitignore modified"
+ 3225  git push
+ 3226  top
+ 3227  cd /home/donato/Documents/workspace/estudos/devopspro/terraform/Terraform-state
+ 3228  terraform destroy
+ 3229  cd /home/donato/Documents/workspace/estudos/devopspro/terraform/Terraform-move
+ 3230  ll
+ 3231  terraform apply
+ 3232  terraform state mv "random_pet.pets" "random_pet.pets[0]"
+ 3233  terraform apply
+ 3234  terraform init
+ 3235  terraform apply
+ 3236  terraform state mv "random_pet.pets" "module.arquivo_pet.random_pet.pets"\nterraform state mv "local_file.arquivo" "module.arquivo_pet.local_file.arquivo"
+ 3237  terraform apply
+ 3238  terraform plan
+ 3239  cd /home/donato/Documents/workspace/estudos/devopspro/terraform/Terraform-state-rm
+ 3240  terraform plan
+ 3241  terraform init
+ 3242  terraform plan
+ 3243  ll
+ 3244  rm -rf .terraform.lock.hcl .terraform
+ 3245  terraform init
+ 3246  terraform plan
+ 3247  rm -rf .terraform.lock.hcl .terraform
+ 3248  ll
+ 3249  rm -rf *tfstate*
+ 3250  ll
+ 3251  terraform init
+ 3252  terraform plan
+ 3253  terraform apply
+ 3254  terraform plan
+ 3255  terraform state rm local_file.arquivo
+ 3256  terraform plan
+ 3257  terraform state rm random_pet.pets
+ 3258  terraform plan
+ 3259  terraform apply
+ 3260  cd /home/donato/Documents/workspace/estudos/devopspro/terraform/Terraform-import
+ 3262  terraform init
+ 3263  terraform apply
+ 3264  terraform state list
+ 3265  terraform state rm digitalocean_droplet.web
+ 3266  terraform state list
+ 3267  terraform destroy
+ 3268  terraform apply
+ 3269  curl http://174.138.58.14/metadata/v1/interfaces/public/0/ipv4/address
+ 3270  terraform destroy
+ 3271  ll
+ 3272  cd /home/donato/Documents/workspace/estudos/devopspro/terraform/Terraform-import
+ 3273  ll
+ 3274  terraform init
+ 3275  terraform plan
+ 3276  terraform apply
+ 3277  terraform destroy
+ 3278  terraform plan
+ 3279  terraform apply
+ 3280  terraform state rm digitalocean_droplet.vm_aula
+ 3281  terraform state list
+ 3282  terraform import digitalocean_droplet.vm_aula 544876983
+ 3283  terraform state list
+ 3284  curl http://67.207.87.231/metadata/v1/interfaces/public/0/ipv4/address
+ 3285  terraform destroy
+ 3286  terraform state list
+ 3287  terraform destroy
+ 3288  terraform apply
+ 3289  ssh root@162.243.164.8 -i ~/.ssh/id_ed25519
+ 3290  terraform state rm digitalocean_droplet.vm_aula
+ 3291  terraform state list
+ 3292  terraform destroy
+ 3293  terraform import digitalocean_droplet.vm_aula 544884913
+ 3294  ssh root@162.243.164.8 -i ~/.ssh/id_ed25519
+ 3295  terraform destroy
+ 3296  ssh root@162.243.164.8 -i ~/.ssh/id_ed25519
+ 3297  terraform state list
+ 3298  terraform destroy
+ 3299  history|grep terraform > terraform_commands.txt
+ 3300  cd ..
+ 3301  terraform state show digitalocean_droplet.vm_aula\n
+ 3302  cd Terraform-import
+ 3303  terraform state show digitalocean_droplet.vm_aula\n
+ 3304  terraform state list
+ 3305  ll
+ 3306  terraform init
+ 3307  terraform apply
+ 3308  terraform state show digitalocean_droplet.vm_aula\n
+ 3309  terraform state rm digitalocean_droplet.vm_aula
+ 3310  terraform state show digitalocean_droplet.vm_aula\n
+ 3311  terraform state list
+ 3312  curl http://169.254.169.254/metadata/v1/interfaces/public/0/ipv4/address
+ 3313  ping 169.254.169.254
+ 3314  curl http://157.230.51.124/metadata/v1/interfaces/public/0/ipv4/address
+ 3315  curl http://169.254.169.254/metadata
+ 3316  ssh root@157.230.51.124 -i ~/.ssh/id_ed25519
+ 3317  terraform import digitalocean_droplet.vm_aula 544902308
+ 3318  terraform destroy
+ 3319  exit
+ 3320  cd /home/donato/Documents/workspace/estudos/devopspro/terraform/Terraform-Backend-Local
+ 3321  ll
+ 3322  terraform init
+ 3323  terraform apply
+ 3324  ll
+ 3325  terraform apply
+ 3326  terraform init
+ 3327  terraform apply
+ 3328  ll
+ 3329  terraform destroy
+ 3330  ll
+ 3331  terraform apply
+ 3332  terraform init
+ 3333  terraform plan
+ 3334  cd ..
+ 3335  ll
+ 3336  cd Terraform-Backend-PostgreSQL
+ 3337  ll
+ 3338  terraform init
+ 3339  kill -9 26853
+ 3340  ping 192.168.56.39
+ 3341  minikube status
+ 3342  minikube start
+ 3343  cd
+ 3344  cd .kube
+ 3345  ll
+ 3346  cd /home/donato/Documents/workspace/estudos/devopspro/terraform/Terraform-Backend-Kubernetes
+ 3347  terraform init
+ 3348  terraform apply
+ 3349  kgaa
+ 3350  alias|grep secrets
+ 3351  alias|grep secret
+ 3352  kgseca
+ 3353  history
+ 3354  export INFRACOST_API_KEY=ico-7cV1MKmhD3BEpMNn9frTpvzZ8dhu5gXX
+ 3355  ll
+ 3356  cd ..
+ 3357  pwd
+ 3358  cd 
+ 3359  cd /home/donato/Documents/workspace/estudos
+ 3360  ll
+ 3361  cd devopspro
+ 3362  ll
+ 3363  cd ..
+ 3364  ll
+ 3365  cd terraform
+ 3366  ll
+ 3367  git clone git@github.com:jorgedonatodba/aws-terraform-multi-region-active-active-disaster-recovery.git
+ 3368  cd aws-terraform-multi-region-active-active-disaster-recovery
+ 3369  ll
+ 3370  infracost breakdown --path .
+ 3371  top
+ 3372  sudo init 0
+ 3373  top
+ 3374  cd /home/donato/Documents/workspace/estudos/devopspro/terraform/Terraform-Gerenciamento Ciclo
+ 3375  ll
+ 3376  cd "/home/donato/Documents/workspace/estudos/devopspro/terraform/Terraform-Gerenciamento Ciclo"
+ 3377  ll
+ 3378  history
+ 3380  terraform init
+ 3381  terraform plan
+ 3382  terraform apply
+ 3383  terraform plan
+ 3384  terraform apply
+ 3385  terraform destroy
+ 3386  terraform apply
+ 3387  terraform destroy
+ 3388  terraform apply
+ 3389  cd "/home/donato/Documents/workspace/estudos/devopspro/terraform/Terraform-Gerenciamento Ciclo"
+ 3391  cd "/home/donato/Documents/workspace/estudos/devopspro/terraform/Terraform-Gerenciamento Ciclo"
+ 3393  terraform init
+ 3394  terraform apply
+ 3395  terraform destroy
+ 3397  cd "/home/donato/Documents/workspace/estudos/devopspro/terraform/Terraform-Gerenciamento Ciclo"
+ 3398  terraform init
+ 3399  terraform apply
+ 3400  terraform destroy
+ 3401  cd "/home/donato/Documents/workspace/estudos/devopspro/terraform/Terraform-Workspaces"
+ 3402  ll
+ 3403  terraform init
+ 3404  terraform workspace show
+ 3405  terraform workspace new prod
+ 3406  terraform workspace new homolog
+ 3407  terraform workspace new desenv
+ 3408  terraform workspace list
+ 3409  terraform workspace select desenv
+ 3410  terraform workspace list
+ 3411  terraform workspace new desenv
+ 3412  terraform workspace new homolog
+ 3413  terraform workspace new prod
+ 3414  terraform workspace select desenv
+ 3415  terraform workspace list
+ 3416  ll
+ 3417  ls -ltrha
+ 3418  terraform init
+ 3419  ll
+ 3420  terraform apply -var-file=desenvolvimento.tfvars
+ 3421  ll
+ 3422  terraform workspace list
+ 3423  terraform workspace select homolog
+ 3424  terraform apply -var-file=homologacao.tfvars
+ 3425  terraform workspace select prod
+ 3426  terraform apply -var-file=producao.tfvars
+ 3427  ll
+ 3428  cd /home/donato/Documents/workspace/estudos/devopspro/terraform/Terraform-Workspaces-II
+ 3429  terraform init
+ 3430  terraform workspace list
+ 3431  terraform workspace select homolog
+ 3432  terraform workspace new prod
+ 3433  terraform workspace new homolog
+ 3434  terraform workspace new desenv
+ 3435  terraform init
+ 3436  terraform workspace list
+ 3437  terraform apply
+ 3438  ll
+ 3439  rm rf arquivo-desenv
+ 3440  rm -rf arquivo-desenv
+ 3441  terraform apply
+ 3442  terraform workspace list
+ 3443  terraform workspace select homolog
+ 3444  terraform apply
+ 3445  terraform workspace select prod
+ 3446  terraform apply
+ 3447  ll
+ 3448  cd /home/donato/Documents/workspace/estudos/devopspro/terraform/Terraform-HandsOn-Workspaces
+ 3449  ll
+ 3450  terraform workspace list
+ 3451  terraform workspace new producao
+ 3452  terraform workspace new homologacao
+ 3453  terraform workspace new desenvolvimento
+ 3454  terraform workspace list
+ 3455  terraform workspace select producao
+ 3456  terraform init
+ 3457  terraform apply
+ 3458  terraform state list
+ 3459  terraform state show data.digitalocean_kubernetes_cluster.k8s
+ 3460  terraform import digitalocean_kubernetes_cluster.k8s 4f498e5e-9cf0-4982-b8e5-03f514172d8b
+ 3461  terraform state list
+ 3462  terraform state show digitalocean_kubernetes_cluster.k8s
+ 3463  terraform plan
+ 3464  terraform fmt
+ 3465  terraform apply -var-file=producao.tfvars
+ 3466  terraform apply -var-file=desenvolvimento.tfvars
+ 3467  terraform workspace select desenvolvimento
+ 3468  terraform apply -var-file=desenvolvimento.tfvars
+ 3469  terraform workspace select homologacao
+ 3470  terraform apply -var-file=homologacao.tfvars
+ 3471  terraform state list
+ 3472  terraform workspace select producao
+ 3473  terraform state list
+ 3474  terraform workspace select default
+ 3475  terraform state list
+ 3476  terraform workspace show
+ 3477  terraform workspace select producao
+ 3478  terraform apply -var-file=producao.tfvars
+ 3479  terraform destroy
+ 3480* sudo apt update
+ 3481  history
+ 3482  cd /home/donato/Documents/workspace/estudos/devopspro/terraform/Terraform-HandsOn-Workspaces
+ 3484  terraform state list
+ 3485  terraform workspace list
+ 3486  terraform apply -var-file=producao.tfvars
+ 3487* cd .kube
+ 3488* ll
+ 3489* rm -rf config.minikube
+ 3490* cp -p config config.minikube
+ 3491* vi config
+ 3492* kgaa
+ 3493* cd /home/donato/Documents/workspace/estudos/devopspro/terraform/Terraform-Kubernetes-Provider/helm
+ 3494* terraform fmt
+ 3495* terraform init
+ 3496* terraform plan
+ 3497* terraform apply
+ 3498* terraform fmt
+ 3499* terraform apply
+ 3500  kgaa
+ 3501  cd /home/donato/Documents/workspace/estudos/devopspro/terraform/Terraform-Kubernetes-Provider/kubernetes
+ 3502  terraform fmt
+ 3503  terraform init
+ 3504  terraform apply
+ 3505* kgpa
+ 3506* k describe pod/web-page-755c8fd6f8-4g5lx
+ 3507  terraform apply
+ 3508  terraform destroy
+ 3509  terraform apply
+ 3510  kgaa
+ 3511  k delete deployment.apps/web-page
+ 3512  kgaa
+ 3513  terraform apply
+ 3514* kgpa
+ 3515* kgaa
+ 3516* k describe deployment.apps/web-page
+ 3517* k describe service/web-page
+ 3518* cd /home/donato/Documents/workspace/estudos/devopspro/terraform/Terraform-HandsOn-Workspaces
+ 3519* terraform workspace list
+ 3520* terraform destroy
+ 3521  cd /home/donato/Documents/workspace/estudos/devopspro/terraform/Terraform-HandsOn-Workspaces
+ 3522  terraform workspace list
+ 3523  terraform destroy
+ 3524  kgaa
+ 3525  cd /home/donato/Documents/workspace/estudos/devopspro/terraform/Terraform-Kubernetes-Provider/kubernetes
+ 3526  terraform destroy
+ 3527  cd /home/donato/Documents/workspace/estudos/devopspro/terraform
