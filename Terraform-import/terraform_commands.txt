@@ -1,0 +1,309 @@
+  361  mkdir terraform
+  362  cd terraform
+  371  cd Documents/workspace/estudos/terraform
+  374  cd Documents/workspace/estudos/terraform
+  395  cd Documents/workspace/estudos/terraform
+  476  cd Documents/workspace/estudos/terraform
+  490  mv graph.dot ~/Documents/workspace/estudos/terraform/HubAndSpoke
+  493  cd ~/Documents/workspace/estudos/terraform/HubAndSpoke
+  506  terraform 
+  507  sudo terraform 
+  508  sudo aptitude show terraform
+  510  sudo aptitude show terraform
+  511  sudo aptitude search terraform
+  512  sudo snap search terraform
+  513  sudo snap install terraform --classic
+  514  terraform 
+  515  terraform init
+  516  terraform plan
+  517  terraform apply
+  518  terraform destroy
+  519  terraform plan
+  520  terraform apply
+  522  terraform apply
+  523  terraform destroy
+  525  terraform apply
+  561  cd Documents/workspace/estudos/terraform/HubAndSpoke/test
+  562  terraform destroy
+  581  terraform apply
+  588  terraform destroy
+  589  terraform plan
+  591  terraform apply
+  592  terraform plan
+  593  terraform destroy
+  594  terraform plan
+  604  terraform plan
+  605  terraform apply
+  608  terraform destroy
+  614  cd Documents/workspace/estudos/terraform/HubAndSpoke/test
+  621  cat terraform.tfvars
+  638  sudo aptitude show terraform
+  639  cd Documents/workspace/estudos/terraform/HubAndSpoke/test
+  752  cd Documents/workspace/estudos/terraform/HubAndSpoke/test
+ 2872  terraform -h
+ 2875  cd ~/Documents/workspace/estudos/terraform
+ 2891  git clone git@github.com:littlejo/terraform-eks-cilium.git
+ 2893  cd terraform-eks-cilium
+ 2897  terraform -h
+ 2905  mkdir terraform
+ 2906  cd terraform
+ 2909  cd /home/donato/Documents/workspace/estudos/devopspro/terraform/handson01
+ 2910  terraform init
+ 2911  terraform fmt
+ 2912  terraform validate
+ 2913  terraform plan
+ 2914  terraform apply
+ 2916  terraform apply
+ 2920  terraform apply
+ 2922  terraform apply
+ 2924  terraform apply
+ 2926  terraform fmt
+ 2927  terraform validate
+ 2928  terraform apply
+ 2930  terraform fmt
+ 2931  terraform apply
+ 2932  terraform fmt
+ 2933  terraform apply
+ 2934  terraform fmt
+ 2935  terraform apply
+ 2936  terraform output
+ 2937  terraform destroy
+ 2938  terraform fmt
+ 2941  terraform init
+ 2942  terraform apply
+ 2944  terraform apply
+ 2945  terraform fmt
+ 2946  terraform apply
+ 2947  terraform fmt
+ 2954  cd terraform
+ 2960  cd devopspro/terraform/handson02
+ 2961  terraform fmt
+ 2962  terraform init
+ 2963  terraform apply
+ 2964  terraform fmt
+ 2965  terraform apply
+ 2966  terraform fmt
+ 2967  terraform validate
+ 2968  terraform apply
+ 2969  terraform fmt
+ 2971  terraform apply
+ 2972  terraform destroy
+ 2974  terraform init
+ 2976  terraform apply
+ 2977  terraform fmt
+ 2978  terraform apply
+ 2979  terraform destroy
+ 2980  terraform apply
+ 2981  terraform destroy
+ 2982  terraform apply
+ 2984  terraform apply
+ 2986  terraform apply
+ 2991  terraform apply
+ 2992  cd /home/donato/Documents/workspace/estudos/devopspro/terraform/handson02-Functions
+ 2993  terraform -v
+ 2994  cd /home/donato/Documents/workspace/estudos/devopspro/terraform/Functions
+ 2995  terraform apply
+ 2996  terraform init
+ 2997  terraform apply
+ 2998  terraform fmt
+ 2999  terraform apply
+ 3001  terraform apply
+ 3002  cd /home/donato/Documents/workspace/estudos/devopspro/terraform/Validations
+ 3003  terraform init
+ 3004  terraform apply
+ 3005  cd /home/donato/Documents/workspace/estudos/devopspro/terraform/handson03
+ 3008  terraform init
+ 3009  terraform validate
+ 3010  terraform plan
+ 3011  terraform apply
+ 3012  terraform destroy
+ 3015  terraform init
+ 3016  terraform apply
+ 3017  cd /home/donato/Documents/workspace/estudos/devopspro/terraform/tf-modulos
+ 3018  terraform init
+ 3019  terraform providers
+ 3020  terraform init
+ 3024  mv .terraform.d .terraform.d.bkp
+ 3025  cd /home/donato/Documents/workspace/estudos/devopspro/terraform/tf-modulos
+ 3026  terraform init
+ 3027  mv ~/.terraform.d ~/.terraform.d.bkp.A
+ 3028  terraform init
+ 3029  mv ~/.terraform.d ~/.terraform.d.bkp.B
+ 3030  terraform init
+ 3031  terraform providers
+ 3032  terraform plan
+ 3035  rm -rf .terraform/
+ 3036  terraform init
+ 3037  terraform init -plugin-dir=./providers
+ 3038  terraform init
+ 3039  rm -rf .terraform/
+ 3040  mv ~/.terraform.d ~/.terraform.d.bkp.C
+ 3041  terraform init
+ 3042  cd .terraform.d
+ 3045  terraform init
+ 3047  terraform init
+ 3048  cd /home/donato/Documents/workspace/estudos/devopspro/terraform/variables
+ 3049  terraform providers
+ 3050  terraform init
+ 3052  rm -rf .terraform.lock.hcl
+ 3053  terraform init
+ 3054  cd /home/donato/Documents/workspace/estudos/devopspro/terraform/tf-modulos
+ 3055  terraform init
+ 3056  terraform apply
+ 3057  terraform destroy
+ 3058  terraform init
+ 3059  terraform apply
+ 3060  terraform destroy
+ 3061  terraform init
+ 3062  terraform apply
+ 3066  terraform destroy
+ 3067  terraform apply
+ 3068  terraform destroy
+ 3069  terraform apply
+ 3070  terraform destroy
+ 3071  terraform apply
+ 3072  terraform init
+ 3073  terraform apply
+ 3074  terraform destroy
+ 3075  terraform apply
+ 3076  terraform destroy
+ 3077  terraform apply
+ 3078  terraform init
+ 3079  terraform apply
+ 3080  terraform destroy
+ 3081  terraform apply
+ 3082  terraform destroy
+ 3085  mv ./hands-on-04.zip /home/donato/Documents/workspace/estudos/devopspro/terraform
+ 3086  cd /home/donato/Documents/workspace/estudos/devopspro/terraform
+ 3090  cd /home/donato/Documents/workspace/estudos/devopspro/terraform/handson04
+ 3098  cd /home/donato/Documents/workspace/estudos/devopspro/terraform/handson04
+ 3101  terraform init
+ 3104  terraform init
+ 3105  terraform plan
+ 3106  terraform apply
+ 3107  terraform output database_password
+ 3108  terraform destroy
+ 3109  terraform plan
+ 3110  terraform destroy
+ 3111  cd /home/donato/Documents/workspace/estudos/devopspro/terraform/handson04-module
+ 3114  rm -rf .terraform.lock.hcl .terraform
+ 3115  terraform plan
+ 3116  terraform init
+ 3117  terraform plan
+ 3118  terraform init
+ 3119  rm -rf .terraform.lock.hcl .terraform
+ 3120  terraform init
+ 3121  terraform plan
+ 3122  rm -rf .terraform.lock.hcl .terraform
+ 3123  terraform init
+ 3127  rm -rf .terraform.lock.hcl .terraform
+ 3128  terraform init
+ 3129  terraform plan
+ 3130  terraform apply
+ 3136  terraform destroy
+ 3138  terraform destroy
+ 3139  cd /home/donato/Documents/workspace/estudos/devopspro/terraform/handson04-module
+ 3141  cd /home/donato/Documents/workspace/estudos/devopspro/terraform
+ 3148  git remote add origin git@github.com:jorgedonatodba/devopspro-modulo-terraform.git
+ 3154  git pull origin git@github.com:jorgedonatodba/devopspro-modulo-terraform.git main
+ 3155  git pull origin jorgedonatodba/devopspro-modulo-terraform.git main
+ 3156  git pull git@github.com:jorgedonatodba/devopspro-modulo-terraform.git main
+ 3157  git pull git@github.com:jorgedonatodba/devopspro-modulo-terraform.git main --no-rebase
+ 3164  git remote add origin git@github.com:jorgedonatodba/devopspro-modulo-terraform.git
+ 3169  rm -rf handson04/terraform.tfstate.*
+ 3175  git remote add origin git@github.com:jorgedonatodba/devopspro-modulo-terraform.git
+ 3178  cd /home/donato/Documents/workspace/estudos/devopspro/terraform/Terraform-state
+ 3179  terraform init
+ 3180  terraform plan
+ 3181  terraform apply
+ 3182  terraform state list
+ 3183  terraform show
+ 3184  terraform state show  local_file.arquivo[3]
+ 3185  terraform state show 
+ 3186  terraform state show local_file.arquivo
+ 3187  terraform show
+ 3188  terraform state show local_file.arquivo[0
+ 3189  terraform state show local_file.arquivo[0]
+ 3190  terraform state show random_pet.pets[1]
+ 3191  terraform state show random_pet.pets[0]
+ 3192  terraform state list
+ 3193  terraform state show random_pet.pets[2]\n
+ 3194  terraform state show "random_pet.pets[2]"\n
+ 3195  terraform state show "random_pet.pets[1]"\n
+ 3196  terraform state show "local_file.arquivo[2]"\n
+ 3197  terraform show\n
+ 3201  terraform graph | dot -Tsvg > imagem.svg\n
+ 3202  terraform state list
+ 3203  terraform apply
+ 3204  terraform taint random_pet.pets[3]
+ 3205  terraform taint "random_pet.pets[3]"
+ 3206  terraform apply
+ 3207  terraform state list
+ 3209  terraform taint "random_pet.pets[3]"
+ 3210  terraform apply
+ 3211  terraform untaint "random_pet.pets[3]"
+ 3212  terraform apply
+ 3213  terraform apply --replace="random_pet.pets[0]" --replace="random_pet.pets[1]" --replace="random_pet.pets[2]" 
+ 3214  history|grep terraform > ../terraform_commands.txt
+ 3215  cat ../terraform_commands.txt
+ 3220  git commit -m "Added Terraform taint untaint and terraform apply --replace"
+ 3222  git commit -m "Added Terraform taint untaint and terraform apply --replace"
+ 3227  cd /home/donato/Documents/workspace/estudos/devopspro/terraform/Terraform-state
+ 3228  terraform destroy
+ 3229  cd /home/donato/Documents/workspace/estudos/devopspro/terraform/Terraform-move
+ 3231  terraform apply
+ 3232  terraform state mv "random_pet.pets" "random_pet.pets[0]"
+ 3233  terraform apply
+ 3234  terraform init
+ 3235  terraform apply
+ 3236  terraform state mv "random_pet.pets" "module.arquivo_pet.random_pet.pets"\nterraform state mv "local_file.arquivo" "module.arquivo_pet.local_file.arquivo"
+ 3237  terraform apply
+ 3238  terraform plan
+ 3239  cd /home/donato/Documents/workspace/estudos/devopspro/terraform/Terraform-state-rm
+ 3240  terraform plan
+ 3241  terraform init
+ 3242  terraform plan
+ 3244  rm -rf .terraform.lock.hcl .terraform
+ 3245  terraform init
+ 3246  terraform plan
+ 3247  rm -rf .terraform.lock.hcl .terraform
+ 3251  terraform init
+ 3252  terraform plan
+ 3253  terraform apply
+ 3254  terraform plan
+ 3255  terraform state rm local_file.arquivo
+ 3256  terraform plan
+ 3257  terraform state rm random_pet.pets
+ 3258  terraform plan
+ 3259  terraform apply
+ 3260  cd /home/donato/Documents/workspace/estudos/devopspro/terraform/Terraform-import
+ 3262  terraform init
+ 3263  terraform apply
+ 3264  terraform state list
+ 3265  terraform state rm digitalocean_droplet.web
+ 3266  terraform state list
+ 3267  terraform destroy
+ 3268  terraform apply
+ 3270  terraform destroy
+ 3272  cd /home/donato/Documents/workspace/estudos/devopspro/terraform/Terraform-import
+ 3274  terraform init
+ 3275  terraform plan
+ 3276  terraform apply
+ 3277  terraform destroy
+ 3278  terraform plan
+ 3279  terraform apply
+ 3280  terraform state rm digitalocean_droplet.vm_aula
+ 3281  terraform state list
+ 3282  terraform import digitalocean_droplet.vm_aula 544876983
+ 3283  terraform state list
+ 3285  terraform destroy
+ 3286  terraform state list
+ 3287  terraform destroy
+ 3288  terraform apply
+ 3290  terraform state rm digitalocean_droplet.vm_aula
+ 3291  terraform state list
+ 3292  terraform destroy
+ 3293  terraform import digitalocean_droplet.vm_aula 544884913
+ 3295  terraform destroy
+ 3297  terraform state list
+ 3298  terraform destroy
